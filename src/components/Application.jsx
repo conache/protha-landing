@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.svg';
 
-function App() {
+function Application() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Application;
