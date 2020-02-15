@@ -10,5 +10,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+@import 'style/globals';
 @import 'style/components/index';
 @import 'style/layout/index';

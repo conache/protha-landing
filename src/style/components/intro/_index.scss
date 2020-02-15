@@ -1,0 +1,18 @@
+.intro {
+  height: 90vh;
+  background-color: #e6edf0; // change this
+  position: relative;
+
+  .festival-logo {
+    max-width: 600px;
+    -webkit-filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.5));
+  }
+
+  &-content {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+}
+
+@import './menu';

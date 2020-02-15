@@ -1,0 +1,44 @@
+$animate: all 0.5s ease-in-out;
+
+.intro-menu {
+  margin-top: 13px;
+  color: $main-color;
+
+  button {
+    transition: $animate;
+    position: relative;
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 0;
+      height: 2px;
+      margin: 2px 0 0;
+      transition: $animate;
+      opacity: 0;
+      background-color: rgba($main-color, 0.4);
+    }
+  }
+
+  button:hover {
+    -webkit-text-shadow: 0px 0px 0.5px $main-color;
+    -moz-text-shadow: 0px 0px 0.5px $main-color;
+    text-shadow: 0px 0px 0.5px $main-color;
+    position: relative;
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 100%;
+      height: 2px;
+      margin: 2px 0 0;
+      transition: $animate;
+      opacity: 1;
+      background-color: rgba($main-color, 1);
+    }
+  }
+}
