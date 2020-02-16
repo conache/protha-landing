@@ -1,10 +1,12 @@
 $animate: all 0.5s ease-in-out;
 
-.intro-menu {
-  margin-top: 13px;
+.menu {
   color: $main-color;
 
-  button {
+  a {
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
     transition: $animate;
     position: relative;
     &:before,
@@ -22,7 +24,8 @@ $animate: all 0.5s ease-in-out;
     }
   }
 
-  button:hover {
+  a:hover,
+  .active {
     -webkit-text-shadow: 0px 0px 0.5px $main-color;
     -moz-text-shadow: 0px 0px 0.5px $main-color;
     text-shadow: 0px 0px 0.5px $main-color;

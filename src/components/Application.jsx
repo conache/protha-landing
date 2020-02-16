@@ -6,7 +6,7 @@ import Sponsors from './sponsors/Sponsors';
 import Contact from './contact/Contact';
 import Navbar from './nav/Navbar';
 
-function Application() {
+const Application = () => {
   return (
     <div>
       <Navbar minYOffset={750} />
@@ -17,6 +17,6 @@ function Application() {
       <Contact />
     </div>
   );
-}
+};
 
 export default Application;

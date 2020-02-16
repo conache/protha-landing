@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
+import Menu from '../shared/Menu';
 
 export default class Navbar extends React.Component {
   constructor(props) {
@@ -37,7 +38,9 @@ export default class Navbar extends React.Component {
         <div className="navbar-content">
           <div>Festival small logo</div>
           <div className="menu-section">
-            <div className="d-none d-sm-block align-self-end">Big menu</div>
+            <div className="d-none d-sm-block align-self-end">
+              <Menu />
+            </div>
             <div className="d-block d-sm-none"></div>
           </div>
         </div>
