@@ -4,10 +4,12 @@ import About from './about/About';
 import Program from './program/Program';
 import Sponsors from './sponsors/Sponsors';
 import Contact from './contact/Contact';
+import Navbar from './nav/Navbar';
 
 function Application() {
   return (
     <div>
+      <Navbar minYOffset={750} />
       <Intro />
       <About />
       <Program />
