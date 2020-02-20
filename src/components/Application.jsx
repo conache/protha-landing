@@ -10,11 +10,11 @@ const Application = () => {
   return (
     <div>
       <Navbar minYOffset={750} />
-      <Intro />
-      <About />
-      <Program />
-      <Sponsors />
-      <Contact />
+      <Intro id="intro" className="intro" />
+      <About id="about" className="about" />
+      <Program id="program" className="program" />
+      <Sponsors id="sponsors" className="sponsors" />
+      <Contact id="contact" className="contact" />
     </div>
   );
 };

@@ -1,11 +1,14 @@
 import React from 'react';
+import landingPageSection from '../../helpers/landingPageSectionHoc';
 
-const Sponsors = props => {
-  return (
-    <div id="sponsors" className="sponsors">
-      <div>Sponsors section</div>
-    </div>
-  );
-};
+class Sponsors extends React.Component {
+  runDisplayAnimation() {
+    console.log('Sponsors section display animation');
+  }
 
-export default Sponsors;
+  render() {
+    return <div>Sponsors section</div>;
+  }
+}
+
+export default landingPageSection(Sponsors);

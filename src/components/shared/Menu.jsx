@@ -1,24 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-
-const CATHEGORIES = [
-  {
-    name: 'despre',
-    anchor: 'about',
-  },
-  {
-    name: 'program',
-    anchor: 'program',
-  },
-  {
-    name: 'sponsori',
-    anchor: 'sponsors',
-  },
-  {
-    name: 'contact',
-    anchor: 'contact',
-  },
-];
+import { MENU_CATHEGORIES } from '../../Constants';
 
 const MenuButton = props => {
   const { anchor, children } = props;
@@ -41,12 +23,11 @@ const MenuButton = props => {
 const Menu = ({ separator }) => {
   return (
     <div className="menu d-flex flex-row justify-content-center">
-      {CATHEGORIES.map((cathegory, index) => [
+      {MENU_CATHEGORIES.map((cathegory, index) => [
         <MenuButton anchor={cathegory.anchor}>{cathegory.name}</MenuButton>,
-        index === CATHEGORIES.length - 1 ? null : separator,
+        index === MENU_CATHEGORIES.length - 1 ? null : separator,
       ])}
     </div>
   );
 };
-
 export default Menu;

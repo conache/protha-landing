@@ -1,11 +1,14 @@
 import React from 'react';
+import landingPageSection from '../../helpers/landingPageSectionHoc';
 
-const About = props => {
-  return (
-    <div id="about" className="about">
-      <div>About section</div>
-    </div>
-  );
-};
+class About extends React.Component {
+  runDisplayAnimation() {
+    console.log('About section display animation');
+  }
 
-export default About;
+  render() {
+    return <div className="landing-section--title">Despre </div>;
+  }
+}
+
+export default landingPageSection(About);
