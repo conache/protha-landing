@@ -23,7 +23,7 @@ export default function landingPageSection(HocComponent) {
             }
           });
         },
-        { threshold: 0.5 },
+        { threshold: 0.75 },
       );
     }
 
