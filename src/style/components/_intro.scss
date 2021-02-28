@@ -1,20 +1,35 @@
 .intro {
-  height: 90vh;
-  background-color: #e6edf0; // change this
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  &.night-section {
+    display: flex;
+    height: 100%;
+    background: linear-gradient(180deg, #02284C 1.72%, #2583A3 23.71%, #B0C1CF 40.25%, #FFDACA 74.92%);
+  }
+
+
+  .stars {
+    padding-top: 2%;
+    height: 247px;
+  }
+
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
 
   .festival-logo {
     max-width: 600px;
-    -webkit-filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.5));
-    filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.5));
+    // -webkit-filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.5));
   }
 
-  &-content {
-    text-align: center;
-    padding-bottom: 80px;
-  }
-
-  &-menu {
-    margin-top: 13px;
+  .placeholder-content {
+    height: 1000px;
   }
 }
