@@ -1,14 +1,30 @@
-import React from 'react';
-import landingPageSection from '../../helpers/landingPageSectionHoc';
+import React, { useEffect } from 'react';
+import { gsap, Power1 } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-class About extends React.Component {
-  runDisplayAnimation() {
-    console.log('About section display animation');
-  }
+const About = (props) => {
+  useEffect(() => {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.to(".blue", {
+        scrollTrigger: {
+          trigger: ".about",
+          start: "center center",
+          end: "+=60px",
+          markers: true,
+          toggleActions: "play none none reverse",
+        },
+        xPercent: 100,
+        duration: 2,
+        ease: Power1.easeOut,
+      });  
+    }
+  )
+  
 
-  render() {
-    return <div className="landing-section--title">Despre </div>;
-  }
+  return <div className="about">
+    <div className="about-section red"></div>
+    <div className="about-section blue"></div>
+  </div>
 }
 
-export default landingPageSection(About);
+export default About;

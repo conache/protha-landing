@@ -3,7 +3,6 @@ import React, { useRef, useEffect } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
-import {TweenMax, Power3} from "gsap";
 import {gsap} from "gsap";
 
 const experiments = props => {

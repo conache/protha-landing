@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  z-index: 2;
 
   &.night-section {
     display: flex;
@@ -10,10 +10,21 @@
     background: linear-gradient(180deg, #02284C 1.72%, #2583A3 23.71%, #B0C1CF 40.25%, #FFDACA 74.92%);
   }
 
-
   .stars {
     padding-top: 2%;
     height: 247px;
+    width: 100%;
+    z-index: 0;
+
+    @media (max-width: 375px) {
+      height: 150px;
+    }
+  }
+
+  .section-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .logo-container {
@@ -25,11 +36,33 @@
 
   .festival-logo {
     max-width: 600px;
-    // -webkit-filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.5));
+    -webkit-filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.5));
+    
+    &.desktop {
+      display: none;
+
+      @media (min-width: 550px) {
+        display: block;
+      }
+    }
+
+    &.mobile {
+      display: none;
+
+      @media (max-width: 550px) {
+        display: block;
+      }
+    }
   }
 
   .placeholder-content {
     height: 1000px;
+  }
+
+  .clouds {
+    margin-top: -5%;
+    z-index: 0;
+    width: 100%;
   }
 }

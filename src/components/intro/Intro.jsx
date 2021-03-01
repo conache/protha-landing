@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { ReactComponent as Stars } from '../../assets/stars.svg';
-import { ReactComponent as Clouds} from "../../assets/clouds.svg";
-import FestivalLogo from "../logo/FestivalLogo";
+import FestivalLogo from "./FestivalLogo";
+import Clouds from "./Clouds";
 import {gsap} from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -14,8 +14,8 @@ const Intro = props => {
         trigger: ".stars",
         end: "+=500px",
         pin: true,
+        pinSpacing: false,
         scrub: 2,
-        markers: true,
       },
       opacity: 0,
     })
@@ -24,13 +24,12 @@ const Intro = props => {
   return (
     <div className="intro night-section">
       <Stars className="stars"/>
-      <div className="section-content-wrapper">
-        <div className="logo-container">
-          <FestivalLogo className="festival-logo"/>
-          <Clouds className="clouds"/>
-        </div>
-        <div className="placeholder-content">
-        </div>
+      <div className="logo-container" >
+        <FestivalLogo />
+        <div>Vino alături de noi și fii tu însuți</div>
+      </div>
+      <Clouds />  
+      <div className="placeholder-content">
       </div>
     </div>
   );
