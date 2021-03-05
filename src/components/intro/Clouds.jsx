@@ -13,7 +13,7 @@ const Clouds = () => {
             scrub: 2,
             pin: true,
             pinSpacing: false,
-            markers: true,
+            // markers: true,
         };
 
         // To right

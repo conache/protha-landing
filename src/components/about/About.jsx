@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { gsap, Power1 } from "gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const About = (props) => {
@@ -15,7 +15,6 @@ const About = (props) => {
         },
         xPercent: 100,
         duration: 2,
-        ease: Power1.easeOut,
       });  
     }
   )

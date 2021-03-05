@@ -21,17 +21,23 @@
     }
   }
 
-  .section-content-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .logo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+  }
+
+  .logo-subtext {
+    font-family: $section-title-font;
+    font-weight: 600;
+    font-size: 22px;
+    color: antiquewhite;
+
+    @media (max-width: 425px) {
+      font-size: 18px;
+      margin-top: 20px;
+    } 
   }
 
   .festival-logo {
@@ -65,4 +71,81 @@
     z-index: 0;
     width: 100%;
   }
+
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1080px;
+    
+    &-content {
+      margin-top: 100px;
+      margin-bottom: 60px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .full-width-image {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .horizontal-text-line {
+    font-size: 64px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-self: flex-start;
+
+    @media (max-width: 425px) {
+      font-size: 32px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.content-element {
+  @media (max-width: 425px) {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    text-transform: uppercase;
+    font-family: 21px;
+    font-size: 44px;
+    font-weight: 900;
+    color: $main-color;
+    margin-bottom: 30px;
+  }
+
+  &-content {
+    font-size: 21px;
+    line-height: 33px;
+    
+    @media (max-width: 425px) {
+      font-size: 16px;
+    }
+  }
+}
+
+#intro-text {
+  opacity: 0;
+}
+
+#img1 {
+  background-image: url("../../assets/img_1.JPG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
