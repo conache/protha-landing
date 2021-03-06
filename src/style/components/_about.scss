@@ -2,24 +2,41 @@
   position: relative;
   height: 70vh;
 
-  .about-section {
+  .showcase-img {
     z-index: 1;
     width: 100%;
     height: 70vh;
-  }
-
-  .red {
-    background-color: salmon;
-  }
-
-  .blue {
-    background-color: slateblue;
     position: absolute;
     top: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
-  .green {
-    top: -100%;
-    background-color: teal;
+  .first-img {
+    background-color: slateblue;
+  }
+
+  .second-img {
+    opacity: 0.6;
   }
 }
+
+#about-img-4 {
+  background-image: url("../../assets/img_2.jpg");  
+}
+
+#about-img-3 {
+  background-image: url("../../assets/img_3.jpg");
+}
+
+#about-img-2 {
+  background-image: url("../../assets/img_4.jpg");
+  background-position: top;
+}
+
+#about-img-1 {
+  background-image: url("../../assets/img_5.jpg");
+}
+

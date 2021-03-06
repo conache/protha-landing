@@ -7,7 +7,7 @@
   &.night-section {
     display: flex;
     height: 100%;
-    background: linear-gradient(180deg, #02284C 1.72%, #2583A3 23.71%, #B0C1CF 40.25%, #FFDACA 74.92%);
+    background: linear-gradient(180deg, #02284C 1.72%, #2583A3 23.71%, #B0C1CF 40.25%, #f9f9f9 74.92%);
   }
 
   .stars {
@@ -16,7 +16,7 @@
     width: 100%;
     z-index: 0;
 
-    @media (max-width: 375px) {
+    @media (max-width: $small-screen-bp) {
       height: 150px;
     }
   }
@@ -30,8 +30,8 @@
 
   .logo-subtext {
     font-family: $section-title-font;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 30px;
     color: antiquewhite;
 
     @media (max-width: 425px) {
@@ -62,10 +62,6 @@
     }
   }
 
-  .placeholder-content {
-    height: 1000px;
-  }
-
   .clouds {
     margin-top: -5%;
     z-index: 0;
@@ -77,17 +73,6 @@
     flex-direction: column;
     align-items: center;
     max-width: 1080px;
-    
-    &-content {
-      margin-top: 100px;
-      margin-bottom: 60px;
-
-      @media (max-width: 768px) {
-        font-size: 16px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-      }
-    }
   }
 
   .full-width-image {
@@ -98,13 +83,13 @@
   .horizontal-text-line {
     font-size: 64px;
     text-transform: uppercase;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-weight: 700;
     padding-top: 20px;
     padding-bottom: 20px;
     align-self: flex-start;
 
-    @media (max-width: 425px) {
+    @media (max-width: $small-screen-bp) {
       font-size: 32px;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -113,28 +98,8 @@
 }
 
 .content-element {
-  @media (max-width: 425px) {
-    font-size: 16px;
-    margin-bottom: 30px;
-  }
-
-  &-title {
-    text-transform: uppercase;
-    font-family: 21px;
-    font-size: 44px;
-    font-weight: 900;
-    color: $main-color;
-    margin-bottom: 30px;
-  }
-
-  &-content {
-    font-size: 21px;
-    line-height: 33px;
-    
-    @media (max-width: 425px) {
-      font-size: 16px;
-    }
-  }
+  margin-top: 30px;
+  margin-bottom: 60px;   
 }
 
 #intro-text {
@@ -148,4 +113,13 @@
   background-position: center;
   background-size: cover;
   height: 60vh;
+}
+
+.current-edition-section {
+  padding: 100px 0px 200px;
+
+  .middle-content {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
