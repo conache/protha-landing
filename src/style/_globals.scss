@@ -3,6 +3,23 @@ $section-title-font: "Raleway", sans-serif;
 $small-screen-bp: 425px;
 $medium-screen-bp: 960px;
 
+.logo-hall {
+    max-width: 140px !important;
+}
+
+.custom-section {
+    margin-top: 100px;
+
+    &-title {
+        margin-bottom: 50px !important;
+    }
+
+    @media (max-width: $small-screen-bp) {
+        padding-top: 60px;
+        margin-top: 50px;
+    }
+}
+
 .section-content-wrapper{
     max-width: 1080px;
 }

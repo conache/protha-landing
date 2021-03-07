@@ -13,7 +13,6 @@ const Clouds = () => {
             scrub: 2,
             pin: true,
             pinSpacing: false,
-            // markers: true,
         };
 
         // To right
@@ -32,7 +31,7 @@ const Clouds = () => {
             duration: 1,
         })
     });
-
+    
     return  <CloudsSVG className="clouds" />;
 }
 

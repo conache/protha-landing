@@ -1,5 +1,13 @@
-.sponsors {
-  background-color: #d9b79a;
-  color: black;
-  height: 500px;
+#logo-nuclear {
+  background-image: url("../../assets/logo_nuclear.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  // height: 300px;
+}
+
+.sponsors-secondary-row {
+  margin-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
 }

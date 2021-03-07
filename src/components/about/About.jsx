@@ -9,7 +9,7 @@ const About = (props) => {
         trigger: ".about",
         start: "40% center",
         end: "+=60px",
-        markers: true,
+        // markers: true,
       };
 
       gsap.timeline({scrollTrigger, repeat: -1, repeatDelay: 2, yoyo: true,})

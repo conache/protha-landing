@@ -27,29 +27,20 @@ const Intro = props => {
       scrollTrigger: {
         trigger: "#intro-text",
         start: "-100px center",
-        markers: true,
+        // markers: true,
       },
       opacity: 1,
       duration: 2,
     });
-    gsap.fromTo(hl_1.current, {x: window.innerWidth}, {
-      scrollTrigger: {
-        trigger: ".full-width-image",
-        start: "top center",
-        scrub: 2,
-        // markers: true,
-      },
-      x: -1 * hl_1.current.scrollWidth,
-    });
-    gsap.fromTo(hl_2.current, {x: - hl_2.current.scrollWidth - window.innerWidth}, {
-    scrollTrigger: {
-        trigger: ".full-width-image",
-        start: "10% center",
-        scrub: 2,
-        // markers: true,
-      },
-      x: 0,
-    });
+
+    const horizontalScrollTrigger = {
+      trigger: ".full-width-image",
+      start: "-150px center",
+    };
+    const tl_1 = gsap.timeline({yoyo: true, scrollTrigger: horizontalScrollTrigger, repeat: -1})
+    .fromTo(hl_1.current, {x: window.innerWidth}, {x: -1 * hl_1.current.scrollWidth + window.innerWidth, duration: 60});
+    const tl_2 = gsap.timeline({yoyo: true, scrollTrigger: horizontalScrollTrigger, repeat: -1})
+      .fromTo(hl_2.current, {x: - hl_2.current.scrollWidth}, {x: 0, duration: 60});
   });
 
   return (
