@@ -16,7 +16,7 @@ class Team extends React.Component {
             <div className="social-logos-container">
                 <a href="https://www.facebook.com/trupadeteatru.protha" target="_blank" ><FacebookLogo className="social-logo" /></a>
                 <a href="https://www.youtube.com/channel/UCr_GbCvgXSb9sH3gjv8qvJQ"><YoutubeLogo className="social-logo" /></a>
-                <a href="https://www.instagram.com/p/CGS65HyJuVl/"><InstagramLogo className="social-logo" /></a>
+                <a href="https://www.instagram.com/trupa.protha/"><InstagramLogo className="social-logo" /></a>
             </div>
         </div>
     </div>
