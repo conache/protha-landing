@@ -4,15 +4,21 @@ import Contact from './contact/Contact';
 import Intro from './intro/Intro';
 import Partners from './partners/Partners';
 import Sponsors from './sponsors/Sponsors';
+import Team from "./team/Team";
 
 
 const Application = () => {
   return [
-      <Intro />,
-      <About />,
-      <Sponsors />,
-      <Partners />,
+    <div className="highlighted-content-wrapper">
+      <Intro />
+      <About />
+      <div className="white-backgrounded">
+        <Sponsors />
+        <Partners />
+      </div>
       <Contact />
+    </div>,
+    <Team />
   ]
 };
 

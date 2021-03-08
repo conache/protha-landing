@@ -1,5 +1,20 @@
 .contact {
-  height: 90vh;
-  background-color: #1e1c26;
-  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(176deg, #1F80A1 30.7%, #B0C1CF 100.71%, #FFE1D5 130%);
+  box-shadow: rgba(0, 0, 0, .3) 0px 20px 30px -20px;
+  color: antiquewhite;
+}
+
+.contact-title {
+  color: antiquewhite !important;
+}
+
+.contact-link {
+  color: antiquewhite !important;
+  text-decoration: underline !important;
+
+  :hover {
+    text-decoration: none;
+  }
 }

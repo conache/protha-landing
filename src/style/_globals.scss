@@ -2,13 +2,24 @@ $main-color: #303336;
 $section-title-font: "Raleway", sans-serif;
 $small-screen-bp: 425px;
 $medium-screen-bp: 960px;
+$bg-theme-white: #f9f9f9;
+
+.highlighted-content-wrapper {
+    z-index: 10;
+    position: relative;
+    margin-bottom: 530px;
+}
+
+.white-backgrounded {
+    background-color: white;
+}
 
 .logo-hall {
     max-width: 140px !important;
 }
 
 .custom-section {
-    margin-top: 100px;
+    padding-top: 100px;
 
     &-title {
         margin-bottom: 50px !important;
