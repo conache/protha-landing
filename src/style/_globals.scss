@@ -1,6 +1,6 @@
 $main-color: #303336;
 $section-title-font: "Raleway", sans-serif;
-$small-screen-bp: 425px;
+$small-screen-bp: 426px;
 $medium-screen-bp: 960px;
 $bg-theme-white: #f9f9f9;
 
@@ -8,6 +8,19 @@ $bg-theme-white: #f9f9f9;
     z-index: 10;
     position: relative;
     margin-bottom: 530px;
+    
+
+    @media (max-width: $small-screen-bp) {
+        margin-bottom: 420px;
+    }
+
+    @media (min-width: $small-screen-bp) and (max-width: $medium-screen-bp) {
+        margin-bottom: 510px;
+    }
+
+    @media (min-width: $medium-screen-bp) {
+        margin-bottom: 510px;
+    }
 }
 
 .white-backgrounded {
@@ -27,7 +40,6 @@ $bg-theme-white: #f9f9f9;
 
     @media (max-width: $small-screen-bp) {
         padding-top: 60px;
-        margin-top: 50px;
     }
 }
 

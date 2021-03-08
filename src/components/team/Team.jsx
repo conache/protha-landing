@@ -11,7 +11,7 @@ class Team extends React.Component {
         <div className="container d-flex align-content-center justify-content-center flex-wrap">
             <div className="organiser-text">Festival organizat de</div>
             <div className="row justify-content-center">
-                <img className="col-md-3 trupa-logo" src={LogoTrupa} />
+                <img className="col-lg-3 col-md-4 col-sm-6 col-6 trupa-logo" src={LogoTrupa} />
             </div>
             <div className="social-logos-container">
                 <a href="https://www.facebook.com/trupadeteatru.protha" target="_blank" ><FacebookLogo className="social-logo" /></a>

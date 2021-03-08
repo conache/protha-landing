@@ -34,38 +34,38 @@ class Partners extends React.Component {
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri</div>
         <div className="row d-flex align-items-center justify-content-around">
-          <img className="col-md-3 col-sm-12" src={PrimariaFocsani} />
-          <img className="col-md-1" src={PrimariaOdobesti} />          
-          <img className="col-md-3" src={PriamariaVidra} />
-          <img className="col-md-1" src={PrimariaDumbraveni} />
-          <img className="col-md-3" src={PrimariaDumitresti} />
-          <img className="col-md-1 col-sm-12" src={PrimariaAdjud} />
-          <img className="col-md-3" src={PrimariaMarasesti} />
-          <img className="col-md-1" src={PrimariaPanciu} />
-          <img className="col-md-2" src={EmilBotaAdjud} />
-          <img className="col-md-3" src={UnireaFocsani} />
-          <img className="col-md-2" src={EremiaGrigorescuMarasesti} />
-          <img className="col-md-2" src={SimionMehedintiVidra} />
-          <img className="col-md-3" src={GrigoreGhebaDumitresti} />
-          <img className="col-md-2" src={CentrulElenaDoamna} />
-          <img className="col-md-2" src={AteneulPopularPastia} />
-          <img className="col-md-2" src={AnsamblulTaraVrancei} />
-          <img className="col-md-2" src={CasaCulturaOdobesti} />
-          <img className="col-md-2" src={CasaCulturaPanciu} />
-          <img className="col-md-2" src={LisPanciu} />
-          <img className="col-md-3" src={DgaspcDjv} />
-          <img className="col-md-3" src={TeatrulFocsani} />
+          <img className="col-md-3 col-sm-10 col-xs-3 partner-logo" src={PrimariaFocsani} />
+          <img className="col-md-1 col-xs-3 partner-logo partner-logo-small" src={PrimariaOdobesti} />          
+          <img className="col-md-3 col-sm-10 col-xs-6 partner-logo" src={PriamariaVidra} />
+          <img className="col-md-1 partner-logo partner-logo-small" src={PrimariaDumbraveni} />
+          <img className="col-md-3 col-sm-10 col-xs-6 partner-logo" src={PrimariaDumitresti} />
+          <img className="col-md-1 partner-logo partner-logo-small" src={PrimariaAdjud} />
+          <img className="col-md-3 col-sm-10 col-xs-6 partner-logo" src={PrimariaMarasesti} />
+          <img className="col-md-1 partner-logo partner-logo-small" src={PrimariaPanciu} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={EmilBotaAdjud} />
+          <img className="col-md-3 partner-logo partner-logo-small" src={UnireaFocsani} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={EremiaGrigorescuMarasesti} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={SimionMehedintiVidra} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={CentrulElenaDoamna} />
+          <img className="col-md-3 partner-logo partner-logo-small" src={GrigoreGhebaDumitresti} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={AteneulPopularPastia} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={AnsamblulTaraVrancei} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={CasaCulturaOdobesti} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={CasaCulturaPanciu} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={LisPanciu} />
+          <img className="col-md-3 partner-logo" src={DgaspcDjv} />
+          <img className="col-md-3 partner-logo" src={TeatrulFocsani} />
         </div>
       </div>,
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri media</div>
         <div className="row d-flex align-items-center justify-content-around">
-          <img className="col-md-2" src={RadioRomaniaIasi} />
-          <img className="col-md-1" src={RadioDada} />
-          <img className="col-md-2" src={AtlasTv} />
-          <img className="col-md-2" src={MonitorulDeVrancea} />
-          <img className="col-md-2" src={JurnalulDeVrancea} />
-          <img className="col-md-2" src={ZiarulDeVrancea} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={RadioRomaniaIasi} />
+          <img className="col-md-1 col-sm-3 partner-logo partner-logo-small" src={RadioDada} />
+          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={AtlasTv} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={MonitorulDeVrancea} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small"  src={JurnalulDeVrancea} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={ZiarulDeVrancea} />
         </div>
       </div>
     ]

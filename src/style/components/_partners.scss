@@ -1,2 +1,14 @@
+.partner-logo {
+    padding: 10px;
+}
 
+.partner-logo-small {
+    @media (max-width: $medium-screen-bp) {
+        max-width: 180px;
+    }
+
+    @media (max-width: $small-screen-bp) {
+        max-width: 140px;
+    }
+}
   
