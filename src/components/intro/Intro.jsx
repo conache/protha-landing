@@ -55,22 +55,22 @@ const Intro = props => {
         <div id="intro-text" className="container intro-section-content d-lg-flex d-sm-block">
           <div className="col-md-12 col-lg-4 content-element">
             <div className="content-element-title responsive-title">Ce?</div>
-            <div className="responsive-content">Festivalul de Teatru Tânăr “Ora de Teatru” este rezultatul orelor petrecute pe scenă, din 2011 până astăzi, a multor generații de liceeni din Panciu, dar și a participărilor în festivaluri naționale și internaționale de teatru.</div>
+            <div className="responsive-content">Festivalul de Teatru Tânăr “Ora de Teatru” așteaptă cu brațele deschise liceeni, atât din țară cât și din străinătate, care știu ce înseamnă scândura scenei, dar și pe cei curioși să privească scena ca și spectatori. Alături de aceștia participă activ la festival copii și tinerii diagnosticați cu autism, cei cu deficiențe de auz și vorbire, precum și cei instituționalizați.</div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
             <div className="content-element-title responsive-title">Cum?</div>
-            <div className="responsive-content">Așteptăm cu brațele deschise liceeni, atât din țară și străinătate, care știu ce înseamnă scândura scenei, dar și pe cei curioși să privească scena ca și spectatori. Alături de aceștia participă activ la festival copii și tinerii diagnosticați cu autism, cei cu deficiențe de auz și vorbire, precum și cei instituționalizați.</div>
+            <div className="responsive-content">Ne concentrăm pe educația alternativă prin teatru. În patru zile dinamice avem grijă să aducem oameni pregătiți pentru a susține ateliere în toate cele opt locații de desfășurare a festivalului. Descoperim luptele scenice, improvizația, muzica și ritmul. În plus, copiii instituționalizați au parte de surprize plăcute și creative. Toți sunt incluși, toți sunt acceptați exact așa cum sunt și toți pleacă cu zâmbete.</div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
           <div className="content-element-title responsive-title">Unde?</div>
-            <div className="responsive-content">Festivalul de Teatru Tânăr “Ora de Teatru” este rezultatul orelor petrecute pe scenă, din 2011 până astăzi, a multor generații de liceeni din Panciu, dar și a participărilor în festivaluri naționale și internaționale de teatru.</div>
+            <div className="responsive-content">La noi acasa. La tine acasa. La prietenii tai. În locuri noi pentru tine. Dar in locuri in care te vei simti ca la tine acasa. Vor fi cel puțin nouă localități, din Vrancea, în care va suna intrarea la “Ora de Teatru”.  De la Focșani către cele mai îndepărtate colțuri ale județului vom fi cu toții acasă. Intrarea la ora va fi de acasă, în schimb, de data asta vom fi prezenți și nu online.</div>
           </div>
         </div>
       </div>
       
-      <div ref={hl_1} id="horizontal-tl-1" className="horizontal-text-line">Voluntariat.Familie.Distractie.Bucurie.Joc.Învățături.Împlinire.Amintiri.Speranță.Reușită.Interacțiuni.Provocări.Legături.Creativitate.Cunoștințe.Teatru.Valorizare.Autocunoaștere.Copilărie.Acceptare.Diversitate.Incluziunie</div>
+      <div ref={hl_1} id="horizontal-tl-1" className="horizontal-text-line">Voluntariat Familie Distractie Bucurie Joc Învățături Împlinire Amintiri Speranță Reușită Interacțiuni Provocări Legături Creativitate Cunoștințe Teatru Valorizare Autocunoaștere Copilărie Acceptare Diversitate Incluziune</div>
       <div id="img1" className="full-width-image" />
-      <div ref={hl_2} id="horizontal-tl-2" className="horizontal-text-line">Voluntariat.Familie.Distractie.Bucurie.Joc.Învățături.Împlinire.Amintiri.Speranță.Reușită.Interacțiuni.Provocări.Legături.Creativitate.Cunoștințe.Teatru.Valorizare.Autocunoaștere.Copilărie.Acceptare.Diversitate.Incluziunie</div>
+      <div ref={hl_2} id="horizontal-tl-2" className="horizontal-text-line">Voluntariat Familie Distractie Bucurie Joc Învățături Împlinire Amintiri Speranță Reușită Interacțiuni Provocări Legături Creativitate Cunoștințe Teatru Valorizare Autocunoaștere Copilărie Acceptare Diversitate Incluziune</div>
 
       <div className="container intro-section-content current-edition-section">
         <div className="col-lg-6">
