@@ -59,7 +59,7 @@ const Intro = props => {
           </div>
           <div className="col-md-12 col-lg-4 content-element">
             <div className="content-element-title responsive-title">Cum?</div>
-            <div className="responsive-content">Așteptăm cu brațele deschise liceeni, atatât din țară și străinătate, care știu ce înseamnă scândura scenei, dar și pe cei curioși să privească scena ca și spectatori. Alături de aceștia participă activ la festival copii și tinerii diagnosticați cu autism, cei cu deficiențe de auz și vorbire, precum și cei instituționalizați.</div>
+            <div className="responsive-content">Așteptăm cu brațele deschise liceeni, atât din țară și străinătate, care știu ce înseamnă scândura scenei, dar și pe cei curioși să privească scena ca și spectatori. Alături de aceștia participă activ la festival copii și tinerii diagnosticați cu autism, cei cu deficiențe de auz și vorbire, precum și cei instituționalizați.</div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
           <div className="content-element-title responsive-title">Unde?</div>
@@ -78,12 +78,12 @@ const Intro = props => {
           <div className="responsive-content">2021 – este anul în care pășim împreună pe drumul pe care am plecat, ducem “ora de teatru” pretutindeni și oferim o fărâmă de cultură. Ne găsim la sfârșit de vara sau la început de toamnă, sub cerul liber, bucurându-ne de reîntâlnire și de noi experiențe.</div>
         </div>
         <div className="col-lg-6 right-aligned middle-content">
-          <div className="responsive-title">Hai să ne bucurăm întâlnirea cu teatrul</div>
+          <div className="responsive-title">Hai să ne bucurăm de întâlnirea cu teatrul</div>
           <div className="responsive-content">Dacă ești liceean, din țară sau din diaspora, dacă locuiești în mediul rural sau urban, dacă vrei să te bucuri de întâlnirea cu teatrul, ai locul tău alături de noi. Pe scândura scenei, la ateliere, ca spectator sau ca voluntar, te lăsăm pe tine să alegi. </div>
         </div>
         <div className="col-lg-6">
           <div className="responsive-title">Dă sfoară în țară</div>
-          <div className="responsive-content">Ține aproape de noi, să vezi ce pregătim. Dă de știre colegilor și prietenilor tăi, că la Focșani și în toată Vrancea, la ceas de pandemie se v-a întâmpla ceva. Scrie-ne și spune-ne unde te regăsești în “ora” noastră. Și împreună vom da viața unei noi ediții a festivalului.</div>
+          <div className="responsive-content">Ține aproape de noi, să vezi ce pregătim. Dă de știre colegilor și prietenilor tăi, că la Focșani și în toată Vrancea, la ceas de pandemie se va întâmpla ceva. Scrie-ne și spune-ne unde te regăsești în “ora” noastră. Și împreună vom da viața unei noi ediții a festivalului.</div>
         </div>
       </div>
     </div>
