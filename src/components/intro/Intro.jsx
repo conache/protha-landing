@@ -68,9 +68,9 @@ const Intro = props => {
         </div>
       </div>
       
-      <div ref={hl_1} id="horizontal-tl-1" className="horizontal-text-line">Voluntariat Familie Distractie Bucurie Joc Învățături Împlinire Amintiri Speranță Reușită Interacțiuni Provocări Legături Creativitate Cunoștințe Teatru Valorizare Autocunoaștere Copilărie Acceptare Diversitate Incluziune</div>
+      <div ref={hl_1} id="horizontal-tl-1" className="horizontal-text-line">Voluntariat    Familie  Distractie  Bucurie  Joc  Învățături  Împlinire  Amintiri  Speranță  Reușită  Interacțiuni  Provocări  Legături  Creativitate  Cunoștințe  Teatru  Valorizare  Autocunoaștere  Copilărie  Acceptare  Diversitate  Incluziune</div>
       <div id="img1" className="full-width-image" />
-      <div ref={hl_2} id="horizontal-tl-2" className="horizontal-text-line">Voluntariat Familie Distractie Bucurie Joc Învățături Împlinire Amintiri Speranță Reușită Interacțiuni Provocări Legături Creativitate Cunoștințe Teatru Valorizare Autocunoaștere Copilărie Acceptare Diversitate Incluziune</div>
+      <div ref={hl_2} id="horizontal-tl-2" className="horizontal-text-line">Voluntariat  Familie  Distractie  Bucurie  Joc  Învățături  Împlinire  Amintiri  Speranță  Reușită  Interacțiuni  Provocări  Legături  Creativitate  Cunoștințe  Teatru  Valorizare  Autocunoaștere  Copilărie  Acceptare  Diversitate  Incluziune</div>
 
       <div className="container intro-section-content current-edition-section">
         <div className="col-lg-6">
