@@ -23,6 +23,9 @@ import TeatrulFocsani from "../../assets/teatru_focsani.png";
 import RadioRomaniaIasi from "../../assets/radio_romania_iasi.png";
 import AtlasTv from "../../assets/atlas_tv.png";
 import MonitorulDeVrancea from "../../assets/monitorul_de_vrancea.png";
+import JurnalulDeVrancea from "../../assets/jdv.png";
+import ZiarulDeVrancea from "../../assets/zdv.jpg";
+import RadioDada from "../../assets/dada.png";
 
 
 class Partners extends React.Component {
@@ -57,9 +60,12 @@ class Partners extends React.Component {
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri media</div>
         <div className="row d-flex align-items-center justify-content-around">
-          <img className="col-md-3" src={RadioRomaniaIasi} />
-          <img className="col-md-3" src={AtlasTv} />
-          <img className="col-md-3" src={MonitorulDeVrancea} />
+          <img className="col-md-2" src={RadioRomaniaIasi} />
+          <img className="col-md-1" src={RadioDada} />
+          <img className="col-md-2" src={AtlasTv} />
+          <img className="col-md-2" src={MonitorulDeVrancea} />
+          <img className="col-md-2" src={JurnalulDeVrancea} />
+          <img className="col-md-2" src={ZiarulDeVrancea} />
         </div>
       </div>
     ]
