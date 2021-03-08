@@ -2,19 +2,29 @@ import React from 'react';
 import LogoNuclear from "../../assets/logo_nuclear.jpeg";
 import LogoVexio from "../../assets/logo_vexio.png";
 import LogoMercury from "../../assets/logo_mercury.jpg";
+import LogoConsiliulJudeteanVrancea from "../../assets/logo_cjv.png";
+
 
 class Sponsors extends React.Component {
   render() {
-    return <div className="container custom-section">
+    return [
+    <div className="container custom-section">
+      <div className="responsive-title custom-section-title">Festival realizat cu sprijinul</div>
+      <div className="row justify-content-center">
+        <img className="col-md-5 col-sm-10 col-xs-6 clickable-logo" src={LogoConsiliulJudeteanVrancea} onClick={() => window.open("https://cjvrancea.ro/", "_blank")} />
+      </div>
+    </div>,
+    <div className="container custom-section">
       <div className="responsive-title custom-section-title">Sponsori</div>
         <div className="row justify-content-center">
-          <img className="col-md-6 col-sm-10 col-xs-6" src={LogoNuclear} />
+          <img className="col-md-6 col-sm-10 col-xs-6 clickable-logo" src={LogoNuclear} onClick={() => window.open("https://www.nuclearelectrica.ro/", "_blank")} />
         </div>
         <div className="row d-flex justify-content-between align-items-center sponsors-secondary-row">
-          <img className="col-md-5 col-sm-12" src={LogoVexio} />
-          <img className="col-md-5 col-sm-12" src={LogoMercury} />
+          <img className="col-md-5 col-sm-12 clickable-logo" src={LogoVexio} onClick={() => window.open("https://www.vexio.ro/", "_blank")} />
+          <img className="col-md-5 col-sm-12 clickable-logo" src={LogoMercury} onClick={() => window.open("https://mercury360.ro/", "_blank")} />
         </div>
     </div>
+    ]
   }
 }
 

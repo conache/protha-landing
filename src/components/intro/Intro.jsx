@@ -59,7 +59,7 @@ const Intro = props => {
           </div>
           <div className="col-md-12 col-lg-4 content-element">
             <div className="content-element-title responsive-title">Cum?</div>
-            <div className="responsive-content">Ne concentrăm pe educația alternativă prin teatru. În patru zile dinamice avem grijă să aducem oameni pregătiți pentru a susține ateliere în toate cele opt locații de desfășurare a festivalului. Descoperim luptele scenice, improvizația, muzica și ritmul. În plus, copiii instituționalizați au parte de surprize plăcute și creative. Toți sunt incluși, toți sunt acceptați exact așa cum sunt și toți pleacă cu zâmbete.</div>
+            <div className="responsive-content">Ne concentrăm pe educația alternativă prin teatru. În patru zile dinamice avem grijă să aducem oameni pregătiți pentru a susține ateliere în toate cele nouă locații de desfășurare a festivalului. Descoperim luptele scenice, improvizația, muzica și ritmul. În plus, copiii instituționalizați au parte de surprize plăcute și creative. Toți sunt incluși, toți sunt acceptați exact așa cum sunt și toți pleacă cu zâmbete.</div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
           <div className="content-element-title responsive-title">Unde?</div>
