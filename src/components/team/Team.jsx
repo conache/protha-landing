@@ -4,9 +4,6 @@ import {ReactComponent as FacebookLogo} from  "../../assets/fb_icon.svg";
 import {ReactComponent as InstagramLogo} from "../../assets/ig_icon.svg";
 import {ReactComponent as YoutubeLogo} from "../../assets/yt_icon.svg";
 
-const SocialLogoLink = ({LogoComp, url}) => {
-    return <a herf={url}><LogoComp className="social-logo" /></a>
-}
 class Team extends React.Component {
   render() {
     const url = "https://www.facebook.com/trupadeteatru.protha";
@@ -18,8 +15,8 @@ class Team extends React.Component {
             </div>
             <div className="social-logos-container">
                 <a href="https://www.facebook.com/trupadeteatru.protha" target="_blank" ><FacebookLogo className="social-logo" /></a>
-                <a href="https://www.youtube.com/channel/UCr_GbCvgXSb9sH3gjv8qvJQ" target="_blank"><YoutubeLogo className="social-logo" /></a>
-                <a href="https://www.instagram.com/trupa.protha/" target="_blank"><InstagramLogo className="social-logo" /></a>
+                <a href="https://www.youtube.com/channel/UCr_GbCvgXSb9sH3gjv8qvJQ"><YoutubeLogo className="social-logo" /></a>
+                <a href="https://www.instagram.com/p/CGS65HyJuVl/"><InstagramLogo className="social-logo" /></a>
             </div>
         </div>
     </div>
