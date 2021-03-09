@@ -79,7 +79,7 @@ const Intro = props => {
         </div>
         <div className="col-lg-6 right-aligned middle-content">
           <div className="responsive-title">Hai să ne bucurăm de întâlnirea cu teatrul</div>
-          <div className="responsive-content">Dacă ești liceean, din țară sau din diaspora, dacă locuiești în mediul rural sau urban, dacă vrei să te bucuri de întâlnirea cu teatrul, ai locul tău alături de noi. Pe scândura scenei, la ateliere, ca spectator sau ca voluntar, te lăsăm pe tine să alegi. </div>
+          <div className="responsive-content">Dacă ești licean, din țară sau din diaspora, dacă locuiești în mediul rural sau urban, dacă vrei să te bucuri de întâlnirea cu teatrul, ai locul tău alături de noi. Pe scândura scenei, la ateliere, ca spectator sau ca voluntar, te lăsăm pe tine să alegi. </div>
         </div>
         <div className="col-lg-6">
           <div className="responsive-title">Dă sfoară în țară</div>
