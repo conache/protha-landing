@@ -14,3 +14,18 @@
 .clickable-logo {
   cursor: pointer;
 }
+
+.asociatie-logo {
+  max-width: 300px;
+  padding-bottom: 30px;
+}
+
+.organiser-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+
+  @media (max-width: $small-screen-bp) {
+      font-size: 24px;
+  }
+}

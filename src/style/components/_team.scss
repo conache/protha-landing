@@ -7,16 +7,6 @@
     padding-bottom: 100px;
 }
 
-.organiser-text {
-    font-family: "Raleway", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-
-    @media (max-width: $small-screen-bp) {
-        font-size: 24px;
-    }
-}
-
 .social-logos-container {
     display: flex;
     flex-direction: row;
@@ -29,10 +19,9 @@
     }
 }
 
-.trupa-logo {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    max-height: 184px;
+.festival-logo {
+    margin-bottom: 60px;
+    max-height: 240px;
 }
 
 .social-logo {

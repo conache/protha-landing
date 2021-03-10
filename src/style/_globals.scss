@@ -11,7 +11,7 @@ $bg-theme-white: #f9f9f9;
     
 
     @media (max-width: $small-screen-bp) {
-        margin-bottom: 420px;
+        margin-bottom: 380px;
     }
 
     @media (min-width: $small-screen-bp) and (max-width: $medium-screen-bp) {
@@ -19,7 +19,7 @@ $bg-theme-white: #f9f9f9;
     }
 
     @media (min-width: $medium-screen-bp) {
-        margin-bottom: 510px;
+        margin-bottom: 480px;
     }
 }
 
