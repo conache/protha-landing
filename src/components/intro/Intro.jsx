@@ -160,17 +160,12 @@ const Intro = props => {
               </a>
             </div>
           </div>
-          <img
-            className="col-lg-8 col-sm-12 mt-4"
-            src={InscrieriTrupaImg}
-            style={{ height: 'fit-content' }}
-          />
+          <img className="col-lg-8 col-sm-12 mt-4" src={InscrieriTrupaImg} />
         </div>
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
           <img
             className="d-none d-sm-none d-xs-none d-md-none d-lg-block col-lg-7 col-sm-12 mt-4"
             src={InscrieriAtelierImg}
-            style={{ height: 'fit-content' }}
           />
           <div className="col-lg-5 middle-content">
             <div className="responsive-title">Aplică pentru ateliere</div>
@@ -193,11 +188,7 @@ const Intro = props => {
               </a>
             </div>
           </div>
-          <img
-            className="d-md-block d-lg-none col-lg-7 col-sm-12 mb-4"
-            src={InscrieriAtelierImg}
-            style={{ height: 'fit-content' }}
-          />
+          <img className="d-md-block d-lg-none col-lg-7 col-sm-12 mb-4" src={InscrieriAtelierImg} />
         </div>
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
           <div className="col-lg-4">
@@ -212,11 +203,7 @@ const Intro = props => {
               <p>Fii voluntar la "Ora de Teatru", fii tu însuți.</p>
             </div>
           </div>
-          <img
-            className="col-lg-7 col-sm-12 mt-4"
-            src={InscrieriVoluntarImg}
-            style={{ height: 'fit-content' }}
-          />
+          <img className="col-lg-7 col-sm-12 mt-4" src={InscrieriVoluntarImg} />
         </div>
       </div>
     </div>
