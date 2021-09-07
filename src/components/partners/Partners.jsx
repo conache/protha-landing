@@ -26,14 +26,36 @@ import MonitorulDeVrancea from "../../assets/monitorul_de_vrancea.png";
 import JurnalulDeVrancea from "../../assets/jdv.png";
 import ZiarulDeVrancea from "../../assets/zdv.jpg";
 import RadioDada from "../../assets/dada.png";
-
+import Tvr from "../../assets/tvr_logo.jpg";
+import UaTgMures from "../../assets/ua_tg_mures.png";
 
 class Partners extends React.Component {
   render() {
     return [
+        /*
+          Added:
+            Partener principal:
+              Univ de Arte Tg Mures, logo, link
+            Parteneri:
+              Ansamblul folcloric "Tara Vrancei"
+            Parteneri media:
+              Logo TVR
+          Removed:
+  
+        */
+      <div className="container partners custom-section">
+        <div className="responsive-title">
+          Partener principal
+        </div>
+        <div className="row justify-content-center">
+          <img className="col-md-5 col-sm-12 clickable-logo" src={UaTgMures} onClick={() => window.open("https://www.uat.ro/", "_blank")} />
+        </div>
+
+      </div>,
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri</div>
         <div className="row d-flex align-items-center justify-content-around">
+          <div className="responsive-partner">Ansamblul folcloric "Tara Vrancei"</div>
           <img className="col-md-3 col-sm-10 col-xs-3 partner-logo" src={PrimariaFocsani} />
           <img className="col-md-1 col-xs-3 partner-logo partner-logo-small" src={PrimariaOdobesti} />          
           <img className="col-md-3 col-sm-10 col-xs-6 partner-logo" src={PriamariaVidra} />
@@ -60,6 +82,8 @@ class Partners extends React.Component {
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri media</div>
         <div className="row d-flex align-items-center justify-content-around">
+          {/*adaugat logo tvr*/}
+          <img className="col-md-2 partner-logo-small" src={Tvr} /> 
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={RadioRomaniaIasi} />
           <img className="col-md-1 col-sm-3 partner-logo partner-logo-small" src={RadioDada} />
           <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={AtlasTv} />
