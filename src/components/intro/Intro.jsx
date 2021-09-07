@@ -140,6 +140,8 @@ const Intro = props => {
         style={{ marginBottom: 200 }}
       />
 
+      {/*  Comentant sectiunea cu inscrieri
+
       <div className="responsive-title">Înscrieri</div>
 
       <div className="container intro-section-content current-edition-section ">
@@ -206,6 +208,7 @@ const Intro = props => {
           <img className="col-lg-7 col-sm-12 mt-4" src={InscrieriVoluntarImg} />
         </div>
       </div>
+      */}
     </div>
   );
 };
