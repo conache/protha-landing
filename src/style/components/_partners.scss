@@ -11,4 +11,16 @@
         max-width: 140px;
     }
 }
-  
+
+/*Font pt parteneri*/
+.responsive-partner
+{
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight: 900;
+    color: $main-color;
+
+    @media (max-width: $small-screen-bp) {
+        font-size: 33px;
+    }
+}
