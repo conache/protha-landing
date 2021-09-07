@@ -5,6 +5,8 @@ import LogoMercury from "../../assets/logo_mercury.jpg";
 import LogoTrupa from "../../assets/logo_trupa.png";
 import LogoConsiliulJudeteanVrancea from "../../assets/logo_cjv.png";
 
+{/* Separat sectiunea Sponsori in Sponsor principal si Sponsor,
+    Sters sponsori, cu exceptia Vexio, si adaugat sub forma de text "Altex Prod." */}
 
 class Sponsors extends React.Component {
   render() {
@@ -23,15 +25,27 @@ class Sponsors extends React.Component {
       </div>
     </div>,
     <div className="container custom-section">
-      <div className="responsive-title custom-section-title">Sponsori</div>
+      <div className="responsive-title custom-section-title">Sponsor principal</div>
         <div className="row justify-content-center">
+          {/* 
           <img className="col-md-6 col-sm-10 col-xs-6 clickable-logo" src={LogoNuclear} onClick={() => window.open("https://www.nuclearelectrica.ro/", "_blank")} />
+          */}
+          <img className="col-md-5 col-sm-12 clickable-logo" src={LogoVexio} onClick={() => window.open("https://www.vexio.ro/", "_blank")} />
+
         </div>
         <div className="row d-flex justify-content-between align-items-center sponsors-secondary-row">
-          <img className="col-md-5 col-sm-12 clickable-logo" src={LogoVexio} onClick={() => window.open("https://www.vexio.ro/", "_blank")} />
-          <img className="col-md-5 col-sm-12 clickable-logo" src={LogoMercury} onClick={() => window.open("https://mercury360.ro/", "_blank")} />
+          {/*<img className="col-md-5 col-sm-12 clickable-logo" src={LogoMercury} onClick={() => window.open("https://mercury360.ro/", "_blank")} />*/}
         </div>
+    <div >
+      <div className="responsive-title custom-section-title">Sponsor</div>
+      <div className="row justify-content-center">
+          <div className="organiser-text">
+            Altex Prod.
+          </div>
+        </div>
+      </div>
     </div>
+    
     ]
   }
 }
