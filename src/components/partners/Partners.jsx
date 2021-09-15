@@ -28,21 +28,19 @@ import ZiarulDeVrancea from "../../assets/zdv.jpg";
 import RadioDada from "../../assets/dada.png";
 import Tvr from "../../assets/tvr_logo.jpg";
 import UaTgMures from "../../assets/ua_tg_mures.png";
+import ActualitateaVranceana from "../../assets/actualitatea_vranceana.jpg";
+import CentrulCulturalSoveja from "../../assets/centrul_cultural_soveja.jpg";
+import DuiliuZamfirescuOdobesti from "../../assets/duiliu_zamfirescu_odobesti.jpg";
+import ScoalaGimnazialaPufesti from "../../assets/scoala_gimnaziala_pufesti.png";
+import Vrancea24 from "../../assets/vrancea_24.jpg";
+import ValidSoftware from "../../assets/valid_software.jpg";
+import CinciFocsani from "../../assets/5focsani.jpg";
+import VranceaTravel from "../../assets/vrancea_travel.jpg"
+import ColegiulValeriuDCotea from "../../assets/colegiul_tehnic_valeriu_d_cotea.gif"
 
 class Partners extends React.Component {
   render() {
     return [
-        /*
-          Added:
-            Partener principal:
-              Univ de Arte Tg Mures, logo, link
-            Parteneri:
-              Ansamblul folcloric "Tara Vrancei"
-            Parteneri media:
-              Logo TVR
-          Removed:
-  
-        */
       <div className="container partners custom-section">
         <div className="responsive-title">
           Partener principal
@@ -55,41 +53,36 @@ class Partners extends React.Component {
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri</div>
         <div className="row d-flex align-items-center justify-content-around">
-          <div className="responsive-partner">Ansamblul folcloric "Tara Vrancei"</div>
-          <img className="col-md-3 col-sm-10 col-xs-3 partner-logo" src={PrimariaFocsani} />
-          <img className="col-md-1 col-xs-3 partner-logo partner-logo-small" src={PrimariaOdobesti} />          
-          <img className="col-md-3 col-sm-10 col-xs-6 partner-logo" src={PriamariaVidra} />
-          <img className="col-md-1 partner-logo partner-logo-small" src={PrimariaDumbraveni} />
-          <img className="col-md-3 col-sm-10 col-xs-6 partner-logo" src={PrimariaDumitresti} />
-          <img className="col-md-1 partner-logo partner-logo-small" src={PrimariaAdjud} />
-          <img className="col-md-3 col-sm-10 col-xs-6 partner-logo" src={PrimariaMarasesti} />
-          <img className="col-md-1 partner-logo partner-logo-small" src={PrimariaPanciu} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={EmilBotaAdjud} />
-          <img className="col-md-3 partner-logo partner-logo-small" src={UnireaFocsani} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={EremiaGrigorescuMarasesti} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={SimionMehedintiVidra} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={CentrulElenaDoamna} />
-          <img className="col-md-3 partner-logo partner-logo-small" src={GrigoreGhebaDumitresti} />
+        <img className="col-md-2 partner-logo partner-logo-small" src={CentrulCulturalSoveja} />
           <img className="col-md-2 partner-logo partner-logo-small" src={AteneulPopularPastia} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={AnsamblulTaraVrancei} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={CasaCulturaOdobesti} />
+          <div className="responsive-partner">Ansamblul folcloric "Tara Vrancei"</div>
           <img className="col-md-2 partner-logo partner-logo-small" src={CasaCulturaPanciu} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={LisPanciu} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={CentrulElenaDoamna} />
           <img className="col-md-3 partner-logo" src={DgaspcDjv} />
-          <img className="col-md-3 partner-logo" src={TeatrulFocsani} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={LisPanciu} /> 
+          <img className="col-md-2 partner-logo partner-logo-small" src={DuiliuZamfirescuOdobesti} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={SimionMehedintiVidra} />
+          <img className="col-md-4 partner-logo" src={ScoalaGimnazialaPufesti} />
+
         </div>
       </div>,
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri media</div>
         <div className="row d-flex align-items-center justify-content-around">
-          {/*adaugat logo tvr*/}
           <img className="col-md-2 partner-logo-small" src={Tvr} /> 
-          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={RadioRomaniaIasi} />
-          <img className="col-md-1 col-sm-3 partner-logo partner-logo-small" src={RadioDada} />
-          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={AtlasTv} />
           <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={MonitorulDeVrancea} />
-          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small"  src={JurnalulDeVrancea} />
           <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={ZiarulDeVrancea} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={RadioRomaniaIasi} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={Vrancea24} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small"  src={JurnalulDeVrancea} />
+          <img className="col-md-1 col-sm-3 partner-logo partner-logo-small" src={RadioDada} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={ValidSoftware} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={ActualitateaVranceana} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={CinciFocsani} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={VranceaTravel} />
+          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={AtlasTv} />
+          <img className="col-md-3 col-sm-1 partner-logo partner-logo-small" src={ColegiulValeriuDCotea} />
+
         </div>
       </div>
     ]
