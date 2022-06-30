@@ -32,19 +32,19 @@
     font-family: $section-title-font;
     font-weight: 500;
     font-size: 30px;
-    color: antiquewhite;
+    color: blue;
 
     @media (max-width: 425px) {
       font-size: 18px;
       margin-top: 20px;
-    } 
+    }
   }
 
   .festival-logo {
     max-width: 600px;
     -webkit-filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.5));
-    
+
     &.desktop {
       display: none;
 
@@ -101,7 +101,7 @@
 
 .content-element {
   margin-top: 30px;
-  margin-bottom: 60px;   
+  margin-bottom: 60px;
 }
 
 #intro-text {
