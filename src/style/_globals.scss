@@ -8,7 +8,7 @@ $bg-theme-white: #f9f9f9;
     z-index: 10;
     position: relative;
     margin-bottom: 530px;
-
+    
 
     @media (max-width: $small-screen-bp) {
         margin-bottom: 380px;
@@ -43,7 +43,7 @@ $bg-theme-white: #f9f9f9;
     }
 }
 
-.section-content-wrapper {
+.section-content-wrapper{
     max-width: 1080px;
 }
 
