@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import InscrieriTrupaImg from '../../assets/inscrieri_trupa.jpeg';
 import InscrieriAtelierImg from '../../assets/inscrieri_atelier.jpeg';
 import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.jpeg';
-import AfisImg from '../../assets/afis.jpeg';
+import AfisImg from '../../assets/afis-nou-2022.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 
