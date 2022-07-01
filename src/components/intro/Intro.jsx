@@ -137,7 +137,7 @@ const Intro = props => {
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
         src={AfisImg}
-        style={{ marginBottom: 200 }}
+        style={{ marginBottom: 200, maxWidth: '100%', height: 'auto', }}
       />
 
       {/*  Comentant sectiunea cu inscrieri

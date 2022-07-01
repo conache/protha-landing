@@ -11,8 +11,8 @@ class Team extends React.Component {
             <img className="col-lg-4 col-md-6 col-sm-8 col-8 festival-logo" src={LogoFestival} />
             <div className="social-logos-container">
                 <a href="https://www.facebook.com/oradeteatru" target="_blank" ><FacebookLogo className="social-logo" /></a>
-                <a href="https://www.youtube.com/channel/UCr_GbCvgXSb9sH3gjv8qvJQ"><YoutubeLogo className="social-logo" /></a>
-                <a href="https://www.instagram.com/trupa.protha/"><InstagramLogo className="social-logo" /></a>
+                <a href="https://www.youtube.com/channel/UCr_GbCvgXSb9sH3gjv8qvJQ" target="_blank"><YoutubeLogo className="social-logo" /></a>
+                <a href="https://www.instagram.com/fest_oradeteatru//" target="_blank"><InstagramLogo className="social-logo" /></a>
             </div>
         </div>
     </div>
