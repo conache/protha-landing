@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import InscrieriTrupaImg from '../../assets/inscrieri_trupa.jpeg';
 import InscrieriAtelierImg from '../../assets/inscrieri_atelier.jpeg';
 import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.jpeg';
-import AfisImg from '../../assets/afis-nou-2022.jpeg';
+import AfisImg from '../../assets/afis.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -137,7 +137,7 @@ const Intro = props => {
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
         src={AfisImg}
-        style={{ marginBottom: 200 }}
+        style={{ marginBottom: 180 }}
       />
 
       {/*  Comentant sectiunea cu inscrieri
