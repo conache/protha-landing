@@ -111,7 +111,7 @@ const Intro = props => {
         <div className="col-lg-6">
           <div className="responsive-title">Ți-am pregătit o mulțime de surprize</div>
           <div className="responsive-content">
-            2021 – este anul în care pășim împreună pe drumul pe care am plecat, ducem “ora de
+            2022 – este anul în care pășim împreună pe drumul pe care am plecat, ducem “ora de
             teatru” pretutindeni și oferim o fărâmă de cultură. Ne găsim la sfârșit de vara sau la
             început de toamnă, sub cerul liber, bucurându-ne de reîntâlnire și de noi experiențe.
           </div>
