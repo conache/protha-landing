@@ -69,12 +69,12 @@ class Partners extends React.Component {
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri media</div>
         <div className="row d-flex align-items-center justify-content-around">
-          <img className="col-md-2 partner-logo-small" src={Tvr} /> 
-          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={MonitorulDeVrancea} />
+          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={Tvr} /> 
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={MonitorulDeVrancea} />
           <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={ZiarulDeVrancea} />
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={RadioRomaniaIasi} />
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={Vrancea24} />
-          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small"  src={JurnalulDeVrancea} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={JurnalulDeVrancea} />
           <img className="col-md-1 col-sm-3 partner-logo partner-logo-small" src={RadioDada} />
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={ValidSoftware} />
           <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={ActualitateaVranceana} />
