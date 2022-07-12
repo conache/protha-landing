@@ -10,11 +10,11 @@ import PrimariaPanciu  from "../../assets/primaria_panciu.png";
 import EmilBotaAdjud from "../../assets/emil_bota_adjud.png";
 import UnireaFocsani from "../../assets/unirea_focsani.png";
 import EremiaGrigorescuMarasesti from "../../assets/eremia_grigorescu_marasesti.jpg";
-import SimionMehedintiVidra from "../../assets/simion_mehedinti_vidra.jpg";
+import SimionMehedintiVidra from "../../assets/simion_mehedinti_vidra.png";
 import GrigoreGhebaDumitresti from "../../assets/grigore_gheba_dumitresti.png";
 import LisPanciu from "../../assets/lis.jpg";
 import AnsamblulTaraVrancei from "../../assets/ansamblul_tara_vrancei.png";
-import AteneulPopularPastia from "../../assets/ateneul_popular_pastia.png";
+import AteneulPopularPastia from "../../assets/ateneul_popular_pastia.jpg";
 import CasaCulturaOdobesti from "../../assets/casa_cultura_odobesti.png";
 import CasaCulturaPanciu from "../../assets/casa_cultura_panciu.jpg";
 import CentrulElenaDoamna from "../../assets/centrul_elena_doamna.jpg";
@@ -35,8 +35,15 @@ import ScoalaGimnazialaPufesti from "../../assets/scoala_gimnaziala_pufesti.png"
 import Vrancea24 from "../../assets/vrancea_24.jpg";
 import ValidSoftware from "../../assets/valid_software.jpg";
 import CinciFocsani from "../../assets/5focsani.jpg";
-import VranceaTravel from "../../assets/vrancea_travel.jpg"
-import ColegiulValeriuDCotea from "../../assets/colegiul_tehnic_valeriu_d_cotea.gif"
+import VranceaTravel from "../../assets/vrancea_travel.jpg";
+import ColegiulValeriuDCotea from "../../assets/colegiul_tehnic_valeriu_d_cotea.gif";
+import UNATC from "../../assets/LogoUNATC.png";
+import CasaDeCulturaOdobesti from "../../assets/LogoCasaDeCulturaOdobesti.png";
+import ColegiulUnirea from "../../assets/LogoColegiulUnirea.jpg";
+import LiceulTatarescu from "../../assets/LogoLicTatarescu.jpg";
+import ColegiulBotta from "../../assets/LogoColegiulBotta.png";
+import ScolaGimnazialaSoveja from "../../assets/LogoScoalaGimnazialaSoveja.jpg";
+import LicTehnPanciu from "../../assets/LogoLicTehnPanciu.png";
 
 class Partners extends React.Component {
   render() {
@@ -46,7 +53,10 @@ class Partners extends React.Component {
           Partener principal
         </div>
         <div className="row justify-content-center">
+          {/*
           <img className="col-md-5 col-sm-12 clickable-logo" src={UaTgMures} onClick={() => window.open("https://www.uat.ro/", "_blank")} />
+          */}
+          <img className="col-md-5 col-sm-12 clickable-logo" style={{ marginBottom: -70, width: 2163 , maxWidth:'65%', height: 'auto',  }} src={UNATC} onClick={() => window.open("https://unatc.ro/devunatc/", "_blank")} />
         </div>
 
       </div>,
@@ -55,7 +65,6 @@ class Partners extends React.Component {
         <div className="row d-flex align-items-center justify-content-around">
         <img className="col-md-2 partner-logo partner-logo-small" src={CentrulCulturalSoveja} />
           <img className="col-md-2 partner-logo partner-logo-small" src={AteneulPopularPastia} />
-          <div className="responsive-partner">Ansamblul folcloric "Tara Vrancei"</div>
           <img className="col-md-2 partner-logo partner-logo-small" src={CasaCulturaPanciu} />
           <img className="col-md-2 partner-logo partner-logo-small" src={CentrulElenaDoamna} />
           <img className="col-md-3 partner-logo" src={DgaspcDjv} />
@@ -63,6 +72,16 @@ class Partners extends React.Component {
           <img className="col-md-2 partner-logo partner-logo-small" src={DuiliuZamfirescuOdobesti} />
           <img className="col-md-2 partner-logo partner-logo-small" src={SimionMehedintiVidra} />
           <img className="col-md-4 partner-logo" src={ScoalaGimnazialaPufesti} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={CasaDeCulturaOdobesti} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={ColegiulUnirea} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={LiceulTatarescu} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={ColegiulBotta} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={ScolaGimnazialaSoveja} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={LicTehnPanciu} />
+          <img className="col-md-2 partner-logo partner-logo-small" src={EremiaGrigorescuMarasesti} />
+          <div className="responsive-partner" onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ", "_blank")}>Ansamblul folcloric "Tara Vrancei"</div>
+          <div className="responsive-partner" >Școala Gimnazială „Valeriu D. Cotea” Vidra</div>
+          <div className="responsive-partner" >Școala Gimnazială Vizantea Răzășească</div>
 
         </div>
       </div>,
