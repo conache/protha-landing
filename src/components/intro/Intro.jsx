@@ -132,6 +132,15 @@ const Intro = props => {
             spune-ne unde te regăsești în “ora” noastră. Și împreună vom da viața unei noi ediții a
             festivalului.
           </div>
+          {/*
+          </div>
+          <div className="col-lg-6 right-aligned middle-content">
+          <div className="responsive-title">Ai vrea sa ne ajuti?</div>
+          <div className="responsive-content">
+            Daca vrei sa ne ajuti poti dona miste bani catre PayPalOraDeTeatruLink. In functie de
+            suma donata poti primi niste premii. {' '}
+          </div>
+          */}
         </div>
       </div>
       <img
@@ -139,7 +148,7 @@ const Intro = props => {
         src={AfisImg}
         style={{ marginBottom: 200, maxWidth: '90%', height:'auto',  }}
       />
-
+      
       {/*  Comentant sectiunea cu inscrieri
 
       <div className="responsive-title">Înscrieri</div>
