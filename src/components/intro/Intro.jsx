@@ -69,27 +69,26 @@ const Intro = props => {
               din țară cât și din străinătate, care știu ce înseamnă scândura scenei, dar și pe cei
               curioși să privească scena ca și spectatori. Alături de aceștia participă activ la
               festival copii și tinerii diagnosticați cu autism, cei cu deficiențe de auz și
-              vorbire, precum și cei instituționalizați.
+              vorbire, precum și cei instituționalizați. Toți sunt incluși, toți sunt acceptați exact 
+              așa cum sunt și toți pleacă cu zâmbete.
             </div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
             <div className="content-element-title responsive-title">Cum?</div>
             <div className="responsive-content">
-              Ne concentrăm pe educația alternativă prin teatru. În patru zile dinamice avem grijă
-              să aducem oameni pregătiți pentru a susține ateliere în toate cele nouă locații de
-              desfășurare a festivalului. Descoperim luptele scenice, improvizația, muzica și
-              ritmul. În plus, copiii instituționalizați au parte de surprize plăcute și creative.
-              Toți sunt incluși, toți sunt acceptați exact așa cum sunt și toți pleacă cu zâmbete.
+            Educația nonformală, terapia prin teatru și târgul de carte ne vor însoți timp de cinci zile, 
+            în cele zece locații ale festivalului. Vom fi noi cu noi, adică persoane cu aceleași valori și 
+            așteptări. Vom fi noi cu ei, cei care ne vor păși alături și ne vor împărtăși din pașii lor 
+            prin viață.  Vom fi noi înșine fiindcă ne vom exprima așa cum suntem.
             </div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
             <div className="content-element-title responsive-title">Unde?</div>
             <div className="responsive-content">
-              La noi acasa. La tine acasa. La prietenii tai. În locuri noi pentru tine. Dar in
-              locuri in care te vei simti ca la tine acasa. Vor fi cel puțin nouă localități, din
-              Vrancea, în care va suna intrarea la “Ora de Teatru”. De la Focșani către cele mai
-              îndepărtate colțuri ale județului vom fi cu toții acasă. Intrarea la ora va fi de
-              acasă, în schimb, de data asta vom fi prezenți și nu online.
+            La noi acasă. La tine acasă. La prietenii tăi. În locuri noi pentru tine. Dar în locuri în care 
+            te vei simți ca la tine acasă. De la Zaga Zaga Sat către alte nouă localități din Vrancea va 
+            suna intrarea la "Ora de Teatru". Din sală în aer liber, din urban în rural, vom fi cât mai 
+            aproape de toți membrii comunităților pe unde vom ajunge.
             </div>
           </div>
         </div>
@@ -111,26 +110,30 @@ const Intro = props => {
         <div className="col-lg-6">
           <div className="responsive-title">Ți-am pregătit o mulțime de surprize</div>
           <div className="responsive-content">
-            2022 – este anul în care pășim împreună pe drumul pe care am plecat, ducem “ora de
-            teatru” pretutindeni și oferim o fărâmă de cultură. Ne găsim la sfârșit de vara sau la
-            început de toamnă, sub cerul liber, bucurându-ne de reîntâlnire și de noi experiențe.
+          2022 - lăsă în urmă agitația și zgomotul orașelor și mută festivalul într-un loc unic din 
+          România, în Delta Siretului. Acolo unde brațele Siretului se ramifică și se risipesc peste 
+          o întindere nesfârșită formând o deltă impresionantă, de o frumusețe aparte. <a href="https://zagazaga.ro/" target="_blank">Zaga Zaga Sat</a> este 
+          locul unde vom fi de la răsărit la apus, timp de cinci zile, și ne vom bucura de 
+          spectacole de calitate, dar și de plimbări cu barca, cu căruța, de parcul de aventură și chiar 
+          de focul de tabără.{' '}
           </div>
         </div>
         <div className="col-lg-6 right-aligned middle-content">
-          <div className="responsive-title">Hai să ne bucurăm de întâlnirea cu teatrul</div>
+          <div className="responsive-title">Hai să ne bucurăm de întâlnirea cu arta</div>
           <div className="responsive-content">
-            Dacă ești licean, din țară sau din diaspora, dacă locuiești în mediul rural sau urban,
-            dacă vrei să te bucuri de întâlnirea cu teatrul, ai locul tău alături de noi. Pe
-            scândura scenei, la ateliere, ca spectator sau ca voluntar, te lăsăm pe tine să alegi.{' '}
+          Spectacole de teatru, coregrafie și muzică, expoziții de fotografie, scenografie și pictură, filme de scurt metraj, 
+          ateliere de teatru și relaționare, ateliere de gândire critică și inteligență emoțională, întâlniri cu personalități 
+          din teatru și mediul cultural, colocvii vocaționale și târgul de carte, toate în aer liber, într-un loc de o 
+          frumusețe tulburătoare, care devine târămul tinerilor.{' '}
           </div>
         </div>
         <div className="col-lg-6 col-md-12">
           <div className="responsive-title">Dă sfoară în țară</div>
           <div className="responsive-content">
-            Ține aproape de noi, să vezi ce pregătim. Dă de știre colegilor și prietenilor tăi, că
-            la Focșani și în toată Vrancea, la ceas de pandemie se va întâmpla ceva. Scrie-ne și
-            spune-ne unde te regăsești în “ora” noastră. Și împreună vom da viața unei noi ediții a
-            festivalului.
+          Ține aproape de noi, să vezi ce pregătim. Dă de știre colegilor și prietenilor tăi, că 
+          la <a href="https://zagazaga.ro/" target="_blank">Zaga Zaga</a> și în toată Vrancea, se va întâmpla ceva. Scrie-ne și spune-ne unde te 
+          regăsești în “ora” noastră. Și împreună vom da viața unei noi ediții a festivalului. 
+          E locul în care trebuie să fii anul acesta, fiindcă doar aici ești tu însuți.
           </div>
           {/*
           </div>
