@@ -56,7 +56,8 @@ class Partners extends React.Component {
           {/*
           <img className="col-md-5 col-sm-12 clickable-logo" src={UaTgMures} onClick={() => window.open("https://www.uat.ro/", "_blank")} />
           */}
-          <img className="col-md-5 col-sm-12 clickable-logo" style={{ marginBottom: -70, width: 2163 , maxWidth:'65%', height: 'auto',  }} src={UNATC} onClick={() => window.open("https://unatc.ro/devunatc/", "_blank")} />
+          <img className="col-md-5 col-sm-12 clickable-logo" style={{ marginBottom: -70, width: 2163 , maxWidth:'90%', height: 'auto',  }} 
+                  src={UNATC} onClick={() => window.open("https://unatc.ro/devunatc/", "_blank")} />
         </div>
 
       </div>,
@@ -79,7 +80,7 @@ class Partners extends React.Component {
           <img className="col-md-2 partner-logo partner-logo-small" src={ScolaGimnazialaSoveja} />
           <img className="col-md-2 partner-logo partner-logo-small" src={LicTehnPanciu} />
           <img className="col-md-2 partner-logo partner-logo-small" src={EremiaGrigorescuMarasesti} />
-          <div className="responsive-partner" onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ", "_blank")}>Ansamblul folcloric "Tara Vrancei"</div>
+          <div className="responsive-partner" >Ansamblul folcloric "Tara Vrancei"</div>
           <div className="responsive-partner" >Școala Gimnazială „Valeriu D. Cotea” Vidra</div>
           <div className="responsive-partner" >Școala Gimnazială Vizantea Răzășească</div>
 

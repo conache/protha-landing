@@ -35,7 +35,8 @@ class Sponsors extends React.Component {
           <img className="col-md-5 col-sm-12 clickable-logo" src={LogoVexio} onClick={() => window.open("https://www.vexio.ro/", "_blank")} />
           <img className="col-md-5 col-sm-12 clickable-logo" src={LogoZagaZaga} onClick={() => window.open("https://zagazaga.ro/", "_blank")} />
           */}
-          <img className="col-md-5 col-sm-12 clickable-logo" style={{ marginBottom: 30, maxWidth: '80%', height:'80%',  }} src={LogoZagaZaga} onClick={() => window.open("https://zagazaga.ro/", "_blank")} />
+          <img className="col-md-5 col-sm-12 clickable-logo" style={{ marginBottom: 30, maxWidth: '80%', height:'80%',  }} 
+              src={LogoZagaZaga} onClick={() => window.open("https://zagazaga.ro/", "_blank")} />
         </div>
         <div className="row d-flex justify-content-between align-items-center sponsors-secondary-row">
           {/*<img className="col-md-5 col-sm-12 clickable-logo" src={LogoMercury} onClick={() => window.open("https://mercury360.ro/", "_blank")} />*/}
