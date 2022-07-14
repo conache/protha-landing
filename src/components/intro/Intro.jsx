@@ -153,7 +153,7 @@ const Intro = props => {
         src={AfisImg}
         style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height:'auto',  }}
       />
-      {/*
+      
       <div className="responsive-title" style={{ fontSize: '64px'}}>Înscrieri</div>
       <div className="container intro-section-content current-edition-section">
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
@@ -194,17 +194,15 @@ const Intro = props => {
             <div className='inscrieri-text-ateliere'>
             <div className="responsive-content">
               <p>
-                Daca esti liceean, din Odobesti, Panciu sau Vidra, aplica, pana pe 28 august,
-                fiindca pe 02 si 03.09.2021 vom fi acasa la tine si ne vom petrece timpul impreuna.{' '}
+              Daca esti liceean, din Focșani, Adjud, Mărășești, Panciu sau Vidra, aplica, pana pe 07 august,
+              fiindca vom fi acasa la tine si ne vom petrece timpul impreuna. {' '}
               </p>
               <p>
-                Daca esti din alte localitati din apropierea celor mentionate te asteptam in acestea
-                alaturi de noi. Daca esti din alta localitate, mai indepartata, aplica si vedem cati
-                va strangeti si venim si la voi acasa.{' '}
+              Daca esti din apropierea fă un pas fiindcă ești binevenit.{' '}
               </p>
-              <p>Haide sa ne petrecem impreuna timpul in 02 si 03.09.2021, la tine acasa.</p>
+              <p>Daca esti ceva mai de departe adună-ți prietenii și colegii și aplicați și venim la voi acasă.</p>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfKGMolW_qlyhecd31gs_gx2yz14LztAvHuKkkfLAzobER-GA/viewform?fbclid=IwAR2OfqB6d7HO4MZuIROcwHr8paOTIDD1DSwbI-dEusCEyB6iGHLfeTSCvi8"
+                href=" https://docs.google.com/forms/d/e/1FAIpQLSdZZ96vX1A8beqI_iAofznksF3qRm3rtau8RNpFlePnEnm-EA/viewform"
                 target="_blank"
               >
                 Aplică pentru ateliere
@@ -219,21 +217,29 @@ const Intro = props => {
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
           <div className="col-lg-4">
             <div className="responsive-title">Vreau sa fiu voluntar</div>
+            <div className= 'inscrieri-text-voluntari'>
             <div className="responsive-content">
               <p>
                 Dacă ești asertiv, respectuos, empatic, pozitiv, flexibil, atent, politicos și de
                 încredere, ești partenerul nostru de drum.
               </p>
               <p>Vino alături de noi și împreună vom da viață unui festival dinamic. </p>
-              <p>Aplică până pe 28 august 2021 și faci parte din echipa noastră. </p>
+              <p>Aplică până pe 7 august 2022 și faci parte din echipa noastră. </p>
               <p>Fii voluntar la "Ora de Teatru", fii tu însuți.</p>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeujr5tBIxf5_74AT_nI56ujD9thcQoKzYJfJQRYoK3hTsbwg/viewform"
+                target="_blank"
+              >
+                Aplică pentru voluntari 
+              </a>
+              </div>
             </div>
           </div>
           <img className="col-lg-7 col-sm-12 mt-4" src={InscrieriVoluntarImg} 
           style={{maxWidth:'90%', height: 'auto'}}/>
         </div>
       </div>
-        */}
+        
     </div>
   );
 };
