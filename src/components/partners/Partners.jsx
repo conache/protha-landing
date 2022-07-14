@@ -64,25 +64,22 @@ class Partners extends React.Component {
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri</div>
         <div className="row d-flex align-items-center justify-content-around">
+        <img className="col-md-2 partner-logo partner-logo-small" src={ColegiulUnirea} />
+        <img className="col-md-3 partner-logo" src={DgaspcDjv} />
         <img className="col-md-2 partner-logo partner-logo-small" src={CentrulCulturalSoveja} />
           <img className="col-md-2 partner-logo partner-logo-small" src={AteneulPopularPastia} />
           <img className="col-md-2 partner-logo partner-logo-small" src={CasaCulturaPanciu} />
           <img className="col-md-2 partner-logo partner-logo-small" src={CentrulElenaDoamna} />
-          <img className="col-md-3 partner-logo" src={DgaspcDjv} />
           <img className="col-md-2 partner-logo partner-logo-small" src={LisPanciu} /> 
           <img className="col-md-2 partner-logo partner-logo-small" src={DuiliuZamfirescuOdobesti} />
           <img className="col-md-2 partner-logo partner-logo-small" src={SimionMehedintiVidra} />
           <img className="col-md-4 partner-logo" src={ScoalaGimnazialaPufesti} />
           <img className="col-md-2 partner-logo partner-logo-small" src={CasaDeCulturaOdobesti} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={ColegiulUnirea} />
           <img className="col-md-2 partner-logo partner-logo-small" src={LiceulTatarescu} />
           <img className="col-md-2 partner-logo partner-logo-small" src={ColegiulBotta} />
           <img className="col-md-2 partner-logo partner-logo-small" src={ScolaGimnazialaSoveja} />
           <img className="col-md-2 partner-logo partner-logo-small" src={LicTehnPanciu} />
           <img className="col-md-2 partner-logo partner-logo-small" src={EremiaGrigorescuMarasesti} />
-          <div className="responsive-partner" >Ansamblul folcloric "Tara Vrancei"</div>
-          <div className="responsive-partner" >Școala Gimnazială „Valeriu D. Cotea” Vidra</div>
-          <div className="responsive-partner" >Școala Gimnazială Vizantea Răzășească</div>
 
         </div>
       </div>,
