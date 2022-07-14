@@ -58,7 +58,7 @@ const Intro = props => {
       <div className="logo-container">
         <FestivalLogo />
         <div className="logo-subtext" style={{ marginLeft: '10px', marginRight: '10px'}}>
-          Vino alaturi de noi și fii tu însuți
+          Vino alături de noi și fii tu însuți
          </div>
       </div>
       <Clouds />
