@@ -58,9 +58,7 @@ const Intro = props => {
       <div className="logo-container">
         <FestivalLogo />
         <div className="logo-subtext" style={{ marginLeft: '10px', marginRight: '10px'}}>
-          Vă invităm alături de noi pentru a oferi copiilor și tinerilor, 
-          care reprezintă “ziua de mâine”, șansa de a acumula noi experiențe, de a își dezvolta abilitățile 
-          și competențele cu care să își clădească un viitor mai bun.
+          Vino alaturi de noi și fii tu însuți
          </div>
       </div>
       <Clouds />
