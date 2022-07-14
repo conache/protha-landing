@@ -4,9 +4,9 @@ import FestivalLogo from './FestivalLogo';
 import Clouds from './Clouds';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import InscrieriTrupaImg from '../../assets/inscrieri_trupa.jpeg';
-import InscrieriAtelierImg from '../../assets/inscrieri_atelier.jpeg';
-import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.jpeg';
+import InscrieriTrupaImg from '../../assets/inscrieri_trupa.png';
+import InscrieriAtelierImg from '../../assets/inscrieri_atelier.png';
+import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.png';
 import AfisImg from '../../assets/afis.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -57,7 +57,11 @@ const Intro = props => {
       <Stars className="stars" />
       <div className="logo-container">
         <FestivalLogo />
-        <div className="logo-subtext">Vino alături de noi și fii tu însuți</div>
+        <div className="logo-subtext" style={{ marginLeft: '10px', marginRight: '10px'}}>
+          Vă invităm alături de noi pentru a oferi copiilor și tinerilor, 
+          care reprezintă “ziua de mâine”, șansa de a acumula noi experiențe, de a își dezvolta abilitățile 
+          și competențele cu care să își clădească un viitor mai bun.
+         </div>
       </div>
       <Clouds />
       <div className="intro-section">
@@ -149,40 +153,47 @@ const Intro = props => {
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
         src={AfisImg}
-        style={{ marginBottom: 200, maxWidth: '90%', height:'auto',  }}
+        style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height:'auto',  }}
       />
-      
-      {/*  Comentant sectiunea cu inscrieri
-
-      <div className="responsive-title">Înscrieri</div>
-
-      <div className="container intro-section-content current-edition-section ">
+      {/*
+      <div className="responsive-title" style={{ fontSize: '64px'}}>Înscrieri</div>
+      <div className="container intro-section-content current-edition-section">
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
           <div className="col-lg-4">
+            <div className='inscrieri-titlu-trupa'>
             <div className="responsive-title">Inscrie-te alături de trupa ta</div>
+            </div>
+            <div className='inscrieri-text-trupa'>
             <div className="responsive-content">
               <p>
-                02 / 05 septembrie 2021 Focsani e perioada si locul in care poti arata altora
-                talentul tau si a colegilor de trupa. pana pe 28 august 2021 aplicatia te asteapta,
-                sa faci pasul.
+                07/11 septembrie 2022, <a href="https://zagazaga.ro/" target="_blank">Zaga Zaga</a> e 
+                perioada si locul in care poti arata altora talentul tau si a colegilor de trupa. Te poti 
+                inscrie pana pe 7 august 2022, ce mai astepti? Vino alaturi de noi!
               </p>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfUZQjnav5dlBSNvFDZzS41cvsJrH4b2xScV_6NMqr_m5AT4g/viewform?fbclid=IwAR2tAoWmRFKgcdRHjpEIwr3jviopoQ_ayrS7ObO13azReZvE2J7oRyTy-YA"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdy6mr5zAdmQC2qv3Qbh8yQKdHiXKerfjsnAceIowEIzeV1kA/viewform"
                 target="_blank"
               >
-                Înscrie-te aici
+                Înscrie-te aici!
               </a>
             </div>
           </div>
-          <img className="col-lg-8 col-sm-12 mt-4" src={InscrieriTrupaImg} />
+          </div>
+          <img className="col-lg-8 col-sm-12 mt-4" src={InscrieriTrupaImg} 
+            style={{maxWidth:'90%', height: 'auto',  }}
+            />
         </div>
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
           <img
             className="d-none d-sm-none d-xs-none d-md-none d-lg-block col-lg-7 col-sm-12 mt-4"
             src={InscrieriAtelierImg}
+            style={{maxWidth:'90%', height: 'auto',  }}
           />
           <div className="col-lg-5 middle-content">
+          <div className='inscrieri-title-ateliere'>
             <div className="responsive-title">Aplică pentru ateliere</div>
+            </div>
+            <div className='inscrieri-text-ateliere'>
             <div className="responsive-content">
               <p>
                 Daca esti liceean, din Odobesti, Panciu sau Vidra, aplica, pana pe 28 august,
@@ -200,9 +211,12 @@ const Intro = props => {
               >
                 Aplică pentru ateliere
               </a>
+              </div>
             </div>
           </div>
-          <img className="d-md-block d-lg-none col-lg-7 col-sm-12 mb-4" src={InscrieriAtelierImg} />
+          <img className="d-md-block d-lg-none col-lg-7 col-sm-12 mb-4" src={InscrieriAtelierImg} 
+          style={{maxWidth:'90%', height: 'auto', }}
+          />
         </div>
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
           <div className="col-lg-4">
@@ -217,10 +231,11 @@ const Intro = props => {
               <p>Fii voluntar la "Ora de Teatru", fii tu însuți.</p>
             </div>
           </div>
-          <img className="col-lg-7 col-sm-12 mt-4" src={InscrieriVoluntarImg} />
+          <img className="col-lg-7 col-sm-12 mt-4" src={InscrieriVoluntarImg} 
+          style={{maxWidth:'90%', height: 'auto'}}/>
         </div>
       </div>
-      */}
+        */}
     </div>
   );
 };
