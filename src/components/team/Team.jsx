@@ -3,6 +3,7 @@ import LogoFestival from "../../assets/bottom-logo.png";
 import {ReactComponent as FacebookLogo} from  "../../assets/fb_icon.svg";
 import {ReactComponent as InstagramLogo} from "../../assets/ig_icon.svg";
 import {ReactComponent as YoutubeLogo} from "../../assets/yt_icon.svg";
+import {ReactComponent as TiktokLogo} from "../../assets/tt_icon.svg";
 
 class Team extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class Team extends React.Component {
                 <a href="https://www.facebook.com/oradeteatru" target="_blank" ><FacebookLogo className="social-logo" /></a>
                 <a href="https://www.youtube.com/channel/UCr_GbCvgXSb9sH3gjv8qvJQ" target="_blank"><YoutubeLogo className="social-logo" /></a>
                 <a href="https://www.instagram.com/fest_oradeteatru/" target="_blank"><InstagramLogo className="social-logo" /></a>
+                <a href="https://vm.tiktok.com/ZMNar7Pee/" target="_blank"><TiktokLogo className="social-logo" /></a>
             </div>
         </div>
     </div>
