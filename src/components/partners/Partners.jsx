@@ -42,6 +42,7 @@ import LiceulTatarescu from "../../assets/LogoLicTatarescu.jpg";
 import ColegiulBotta from "../../assets/LogoColegiulBotta.png";
 import ScolaGimnazialaSoveja from "../../assets/LogoScoalaGimnazialaSoveja.jpg";
 import LicTehnPanciu from "../../assets/LogoLicTehnPanciu.png";
+import RadRomActualitati from "../../assets/RadioRomaniaActualiati.png"
 
 class Partners extends React.Component {
   render() {
@@ -82,20 +83,21 @@ class Partners extends React.Component {
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri media</div>
         <div className="row d-flex align-items-center justify-content-around">
-          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={Tvr} /> 
-          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={MonitorulDeVrancea} />
-          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={ZiarulDeVrancea} />
+          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={Tvr} />
+          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={RadRomActualitati} /> 
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={RadioRomaniaIasi} />
-          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={Vrancea24} />
-          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={JurnalulDeVrancea} />
           <img className="col-md-1 col-sm-3 partner-logo partner-logo-small" src={RadioDada} />
-          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={ValidSoftware} />
-          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={ActualitateaVranceana} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={ZiarulDeVrancea} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={JurnalulDeVrancea} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={Vrancea24} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={MonitorulDeVrancea} />         
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={ActualitateaVranceana} />
+          <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={VranceaTravel} />
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={CinciFocsani} />
-          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={VranceaTravel} />
-          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={AtlasTv} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={ValidSoftware} />
+          {/*<img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={AtlasTv} />
           <img className="col-md-3 col-sm-1 partner-logo partner-logo-small" src={ColegiulValeriuDCotea} />
-
+          */}
         </div>
       </div>
     ]
