@@ -46,10 +46,15 @@ class Sponsors extends React.Component {
       <div className="row justify-content-center">
       <img className="col-md-5 col-sm-12 clickable-logo" src={LogoVexio} onClick={() => window.open("https://www.vexio.ro/", "_blank")} 
             style={{ marginBottom: 75}}/>
+      </div>
+      <div >
+      <div className="row justify-content-center">
+      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoGrupAutonom} onClick={() => window.open("https://www.autonom.com/about", "_blank")} 
+            style={{ marginBottom: 75}}/>
+      </div>
       <div className="organiser-text" style={{ marginBottom: 10, fontSize: 70}}> 
           Altex Prod.
-        </div>
-      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoGrupAutonom} onClick={() => window.open("https://www.autonom.com/about", "_blank")} />
+          </div>
       </div>
     </div>
   </div>
