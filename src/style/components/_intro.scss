@@ -131,6 +131,7 @@
   }
 }
 .inscrieri-text-trupa {
+  margin-left: 10px;
   margin-right: 10px;
   flex-direction: column;
   text-align:left;
@@ -138,21 +139,36 @@
   text-indent: 0px;
 }
 .inscrieri-text-ateliere {
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-direction: column;
+  text-align:left;
+  max-width: 480px;
+  text-indent: 0px;
+}
+.inscrieri-text-voluntari{
+  margin-left: 10px;
+  margin-right: 10px;
   flex-direction: column;
   text-align:left;
   max-width: 480px;
   text-indent: 0px;
 }
 .inscrieri-titlu-trupa {
+  margin-left: 10px;
   margin-right: 5px;
 }
 .inscrieri-title-ateliere {
-  margin-left: 20px;
-}.inscrieri-text-voluntari{
-  margin-right: 20px;
-  flex-direction: column;
-  text-align:left;
-  max-width: 480px;
-  text-indent: 0px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
+.inscrieri-titlu-voluntari {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+/*
+.motto {
+  color: #d4af35;
+  text-shadow: 0px 0px #bba14f;
+}
+*/
