@@ -159,14 +159,14 @@ const Intro = props => {
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
           <div className="col-lg-4">
             <div className='inscrieri-titlu-trupa'>
-            <div className="responsive-title">Inscrie-te alături de trupa ta</div>
+            <div className="responsive-title">Înscrie-te alături de trupa ta</div>
             </div>
             <div className='inscrieri-text-trupa'>
             <div className="responsive-content">
               <p>
                 07/11 septembrie 2022, <a href="https://zagazaga.ro/" target="_blank">Zaga Zaga</a> e 
-                perioada si locul in care poti arata altora talentul tau si a colegilor de trupa. Te poti 
-                inscrie pana pe 7 august 2022, ce mai astepti? Vino alaturi de noi!
+                perioada și locul în care poți arăta altora talentul tău și a colegilor de trupă. Te poți 
+                înscrie până pe 7 august 2022, ce mai aștepți? Vino alături de noi!
               </p>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdy6mr5zAdmQC2qv3Qbh8yQKdHiXKerfjsnAceIowEIzeV1kA/viewform"
@@ -178,7 +178,7 @@ const Intro = props => {
           </div>
           </div>
           <img className="col-lg-8 col-sm-12 mt-4" src={InscrieriTrupaImg} 
-            style={{maxWidth:'90%', height: 'auto',  }}
+            style={{maxWidth:'90%', height: 'auto',   }}
             />
         </div>
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
@@ -194,18 +194,20 @@ const Intro = props => {
             <div className='inscrieri-text-ateliere'>
             <div className="responsive-content">
               <p>
-              Daca esti liceean, din Focșani, Adjud, Mărășești, Panciu sau Vidra, aplica, pana pe 07 august,
-              fiindca vom fi acasa la tine si ne vom petrece timpul impreuna. {' '}
+              Dacă ești liceean, din Focșani, Adjud, Mărășești, Panciu sau Vidra, aplică, până pe 7 august,
+              fiindca vom fii acasă la tine si ne vom petrece timpul împreună. {' '}
               </p>
               <p>
-              Daca esti din apropierea fă un pas fiindcă ești binevenit.{' '}
+              Dacă ești din apropiere, fă un pas, fiindcă ești binevenit.{' '}
               </p>
-              <p>Daca esti ceva mai de departe adună-ți prietenii și colegii și aplicați și venim la voi acasă.</p>
+              <p>
+              Dacă ești ceva mai de departe, adună-ți prietenii și colegii, aplicați, și o să venim la voi acasă.
+              </p>
               <a
                 href=" https://docs.google.com/forms/d/e/1FAIpQLSdZZ96vX1A8beqI_iAofznksF3qRm3rtau8RNpFlePnEnm-EA/viewform"
                 target="_blank"
               >
-                Aplică pentru ateliere
+                Aplică pentru ateliere!
               </a>
               </div>
             </div>
@@ -216,7 +218,9 @@ const Intro = props => {
         </div>
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
           <div className="col-lg-4">
+            <div className='inscrieri-titlu-voluntari'>
             <div className="responsive-title">Vreau sa fiu voluntar</div>
+            </div>
             <div className= 'inscrieri-text-voluntari'>
             <div className="responsive-content">
               <p>
@@ -224,19 +228,19 @@ const Intro = props => {
                 încredere, ești partenerul nostru de drum.
               </p>
               <p>Vino alături de noi și împreună vom da viață unui festival dinamic. </p>
-              <p>Aplică până pe 7 august 2022 și faci parte din echipa noastră. </p>
-              <p>Fii voluntar la "Ora de Teatru", fii tu însuți.</p>
+              <p>Aplică până pe 7 august 2022 și o să faci parte din echipa noastră. </p>
+              <div className='motto'>Fii voluntar la "Ora de Teatru", fii tu însuți.</div>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeujr5tBIxf5_74AT_nI56ujD9thcQoKzYJfJQRYoK3hTsbwg/viewform"
                 target="_blank"
               >
-                Aplică pentru voluntari 
+                Aplică pentru voluntari!
               </a>
               </div>
             </div>
           </div>
           <img className="col-lg-7 col-sm-12 mt-4" src={InscrieriVoluntarImg} 
-          style={{maxWidth:'90%', height: 'auto'}}/>
+          style={{maxWidth:'90%', height: 'auto', }}/>
         </div>
       </div>
         
