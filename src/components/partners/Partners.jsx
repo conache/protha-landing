@@ -14,7 +14,6 @@ import SimionMehedintiVidra from "../../assets/simion_mehedinti_vidra.png";
 import GrigoreGhebaDumitresti from "../../assets/grigore_gheba_dumitresti.png";
 import LisPanciu from "../../assets/lis.jpg";
 import AnsamblulTaraVrancei from "../../assets/ansamblul_tara_vrancei.png";
-import AteneulPopularPastia from "../../assets/ateneul_popular_pastia.jpg";
 import CasaCulturaOdobesti from "../../assets/casa_cultura_odobesti.png";
 import CasaCulturaPanciu from "../../assets/casa_cultura_panciu.jpg";
 import CentrulElenaDoamna from "../../assets/centrul_elena_doamna.jpg";
@@ -29,7 +28,6 @@ import RadioDada from "../../assets/dada.png";
 import Tvr from "../../assets/tvr_logo.jpg";
 import UaTgMures from "../../assets/ua_tg_mures.png";
 import ActualitateaVranceana from "../../assets/actualitatea_vranceana.jpg";
-import CentrulCulturalSoveja from "../../assets/centrul_cultural_soveja.jpg";
 import DuiliuZamfirescuOdobesti from "../../assets/duiliu_zamfirescu_odobesti.jpg";
 import ScoalaGimnazialaPufesti from "../../assets/scoala_gimnaziala_pufesti.png";
 import Vrancea24 from "../../assets/vrancea_24.jpg";
@@ -66,8 +64,6 @@ class Partners extends React.Component {
         <div className="row d-flex align-items-center justify-content-around">
         <img className="col-md-2 partner-logo partner-logo-small" src={ColegiulUnirea} />
         <img className="col-md-3 partner-logo" src={DgaspcDjv} />
-        <img className="col-md-2 partner-logo partner-logo-small" src={CentrulCulturalSoveja} />
-          <img className="col-md-2 partner-logo partner-logo-small" src={AteneulPopularPastia} />
           <img className="col-md-2 partner-logo partner-logo-small" src={CasaCulturaPanciu} />
           <img className="col-md-2 partner-logo partner-logo-small" src={CentrulElenaDoamna} />
           <img className="col-md-2 partner-logo partner-logo-small" src={LisPanciu} /> 
