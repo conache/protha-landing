@@ -16,8 +16,10 @@ class Team extends React.Component {
                 <a href="https://www.facebook.com/oradeteatru" target="_blank" ><FacebookLogo className="social-logo" /></a>
                 <a href="https://www.youtube.com/channel/UCr_GbCvgXSb9sH3gjv8qvJQ" target="_blank"><YoutubeLogo className="social-logo" /></a>
                 <a href="https://www.instagram.com/fest_oradeteatru/" target="_blank"><InstagramLogo className="social-logo" /></a>
-                <a href="https://vm.tiktok.com/ZMNar7Pee/" target="_blank"><TiktokLogo className="social-logo-Tik" /></a>
-                <a href="https://www.linkedin.com/feed/" target="_blank"><LinkedINLogo className="social-logo-Tik" /></a>
+                <a href="https://vm.tiktok.com/ZMNar7Pee/" target="_blank"><TiktokLogo className="social-logo-part" /></a>
+            </div>
+            <div>
+                <a href="" target="_blank"><LinkedINLogo className="social-logo-part" /></a>
             </div>
         </div>
     </div>
