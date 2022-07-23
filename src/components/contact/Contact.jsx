@@ -5,7 +5,7 @@ class Contact extends React.Component {
     return <div className="contact">
       <div className="container">
         <div className="responsive-title contact-title">Ți-am stârnit curiozitatea?</div>
-        <div className="responsive-content">Ține aproape pentru mai multe detalii sau trimite-ne un e-mail la <a className="contact-link" href="mailto:asociatiaprotha@yahoo.ro" target="_blank">asociatiaprotha@yahoo.ro</a>.
+        <div className="responsive-content">Ține aproape pentru mai multe detalii sau informații trimite-ne un e-mail la <a className="contact-link" href="mailto:asociatiaprotha@yahoo.ro" target="_blank">asociatiaprotha@yahoo.ro</a>.
         </div>
       </div>
     </div>
