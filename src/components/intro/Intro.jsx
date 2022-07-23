@@ -8,6 +8,7 @@ import InscrieriTrupaImg from '../../assets/inscrieri_trupa.png';
 import InscrieriAtelierImg from '../../assets/inscrieri_atelier.png';
 import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.png';
 import AfisImg from '../../assets/afis.jpeg';
+import HartaZagaZaga from '../../assets/HartaZagaZagaSat.jpg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -152,6 +153,14 @@ const Intro = props => {
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
         src={AfisImg}
         style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height:'auto',  }}
+      />
+      <div className='Titlu-HartaZagaZagaSat'>
+      <div className="responsive-title" style={{ fontSize: '64px'}}>Hartă Zaga Zaga Sat</div>
+      </div>
+      <img
+        className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
+        src={HartaZagaZaga}
+        style={{ marginBottom: 100, marginTop: 20, maxWidth: '90%', height:'auto',  }}
       />
       
       <div className="responsive-title" style={{ fontSize: '64px'}}>Înscrieri</div>
