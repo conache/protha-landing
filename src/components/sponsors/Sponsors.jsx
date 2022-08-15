@@ -5,7 +5,8 @@ import LogoMercury from "../../assets/logo_mercury.jpg";
 import LogoTrupa from "../../assets/logo_trupa.png";
 import LogoConsiliulJudeteanVrancea from "../../assets/NewLogoCJV.jpg";
 import LogoZagaZaga from "../../assets/logo-ZagaZagaSat.jpg";
-import LogoGrupAutonom from "../../assets/LogoGrupAutonom.jpeg"
+import LogoGrupAutonom from "../../assets/LogoGrupAutonom.jpeg";
+import LogoBTD from "../../assets/btdLogo.png";
 
 
 {/* Separat sectiunea Sponsori in Sponsor principal si Sponsor,
@@ -43,6 +44,10 @@ class Sponsors extends React.Component {
         </div>
     <div >
     <div className="responsive-title custom-section-title">Sponsori</div>
+    <div className="row justify-content-center">
+      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoBTD} onClick={() => window.open("https://www.btdconstruct.ro/", "_blank")} 
+            style={{ marginBottom: 75}}/>
+      </div>
       <div className="row justify-content-center">
       <img className="col-md-5 col-sm-12 clickable-logo" src={LogoVexio} onClick={() => window.open("https://www.vexio.ro/", "_blank")} 
             style={{ marginBottom: 75}}/>
