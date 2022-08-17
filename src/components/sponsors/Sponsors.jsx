@@ -7,6 +7,7 @@ import LogoConsiliulJudeteanVrancea from "../../assets/NewLogoCJV.jpg";
 import LogoZagaZaga from "../../assets/logo-ZagaZagaSat.jpg";
 import LogoGrupAutonom from "../../assets/LogoGrupAutonom.jpeg";
 import LogoBTD from "../../assets/btdLogo.png";
+import LogoLaBunelu from "../../assets/LogoLaBunelu.jpg"
 
 
 {/* Separat sectiunea Sponsori in Sponsor principal si Sponsor,
@@ -56,6 +57,10 @@ class Sponsors extends React.Component {
       <div className="row justify-content-center">
       <img className="col-md-5 col-sm-12 clickable-logo" src={LogoGrupAutonom} onClick={() => window.open("https://www.autonom.com/about", "_blank")} 
             style={{ marginBottom: 75}}/>
+      </div>
+      <div className="row justify-content-center">
+      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoLaBunelu} onClick={() => window.open("https://www.facebook.com/profile.php?id=100067471712726", "_blank")} 
+            style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
       </div>
       <div className="organiser-text" style={{ marginBottom: 10, fontSize: 70}}> 
           Altex Prod.
