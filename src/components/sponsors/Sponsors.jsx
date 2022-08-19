@@ -8,6 +8,7 @@ import LogoZagaZaga from "../../assets/logo-ZagaZagaSat.jpg";
 import LogoGrupAutonom from "../../assets/LogoGrupAutonom.jpeg";
 import LogoBTD from "../../assets/btdLogo.png";
 import LogoLaBunelu from "../../assets/LogoLaBunelu.jpg"
+import LogoPaco from "../../assets/LogoPaco.jpg"
 
 
 {/* Separat sectiunea Sponsori in Sponsor principal si Sponsor,
@@ -47,6 +48,10 @@ class Sponsors extends React.Component {
     <div className="responsive-title custom-section-title">Sponsori</div>
     <div className="row justify-content-center">
       <img className="col-md-5 col-sm-12 clickable-logo" src={LogoBTD} onClick={() => window.open("https://www.btdconstruct.ro/", "_blank")} 
+            style={{ marginBottom: 75}}/>
+      </div>
+      <div className="row justify-content-center">
+      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoPaco} onClick={() => window.open("https://pacomarket.ro/", "_blank")} 
             style={{ marginBottom: 75}}/>
       </div>
       <div className="row justify-content-center">

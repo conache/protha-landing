@@ -70,7 +70,7 @@ const Intro = props => {
             <div className="responsive-content">
               Festivalul de Teatru Tânăr “Ora de Teatru” așteaptă cu brațele deschise liceeni, atât
               din țară cât și din străinătate, care știu ce înseamnă scândura scenei, dar și pe cei
-              curioși să privească scena ca și spectatori. Alături de aceștia participă activ la
+              curioși să privească scena ca  spectatori. Alături de aceștia participă activ la
               festival copii și tinerii diagnosticați cu autism, cei cu deficiențe de auz și
               vorbire, precum și cei instituționalizați. Toți sunt incluși, toți sunt acceptați exact 
               așa cum sunt și toți pleacă cu zâmbete.
