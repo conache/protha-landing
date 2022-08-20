@@ -8,7 +8,7 @@ import LogoZagaZaga from "../../assets/logo-ZagaZagaSat.jpg";
 import LogoGrupAutonom from "../../assets/LogoGrupAutonom.jpeg";
 import LogoBTD from "../../assets/btdLogo.png";
 import LogoLaBunelu from "../../assets/LogoLaBunelu.jpg"
-import LogoPaco from "../../assets/LogoPaco.jpg"
+import LogoPaco from "../../assets/LogoPaco.png"
 
 
 {/* Separat sectiunea Sponsori in Sponsor principal si Sponsor,
