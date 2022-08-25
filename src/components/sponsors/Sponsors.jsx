@@ -70,12 +70,12 @@ class Sponsors extends React.Component {
             style={{ marginBottom: 75}}/>
       </div>
       <div className="row justify-content-center">
-      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoLaBunelu} onClick={() => window.open("https://www.facebook.com/profile.php?id=100067471712726", "_blank")} 
-            style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
-      </div>
-      <div className="row justify-content-center">
       <img className="col-md-5 col-sm-12 clickable-logo" src={LogoRobutex} onClick={() => window.open("http://www.robutex.ro/", "_blank")} 
             style={{ marginBottom: 75}}/>
+      </div>
+      <div className="row justify-content-center">
+      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoLaBunelu} onClick={() => window.open("https://www.facebook.com/profile.php?id=100067471712726", "_blank")} 
+            style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
       </div>
       </div>
     </div>
