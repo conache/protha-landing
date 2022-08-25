@@ -6,7 +6,6 @@ import Partners from './partners/Partners';
 import Sponsors from './sponsors/Sponsors';
 import Team from "./team/Team";
 
-
 const Application = () => {
   return [
     <div className="highlighted-content-wrapper">
@@ -21,5 +20,6 @@ const Application = () => {
     <Team />
   ]
 };
+
 
 export default Application;

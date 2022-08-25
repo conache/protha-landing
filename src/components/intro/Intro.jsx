@@ -152,7 +152,8 @@ const Intro = props => {
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
         src={AfisImg}
-        style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height:'auto',  }}
+        style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height:'auto', }}
+        onClick={() => window.open("https://zagazaga.ro/ora-de-teatru-2022/", "_blank")}
       />
       <div className='Titlu-HartaZagaZagaSat'>
       <div className="responsive-title" style={{ fontSize: '64px'}}>Hartă Zaga Zaga Sat</div>
