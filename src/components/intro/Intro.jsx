@@ -150,7 +150,7 @@ const Intro = props => {
         </div>
       </div>
       <img
-        className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
+        className="col-lg-6 col-md-10 col-sm-10 col-xs-10 clickable-logo"
         src={AfisImg}
         style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height:'auto', }}
         onClick={() => window.open("https://zagazaga.ro/ora-de-teatru-2022/", "_blank")}
