@@ -17,6 +17,7 @@ import LogoDavide from "../../assets/LogoDavide.jpeg";
 import LogoFlorariaMaruca from "../../assets/LogoFlorariaMaruca.png";
 import LogoLupinocom from "../../assets/LogoLupinocom.png";
 import LogoPlexity from "../../assets/LogoPlexity.png";
+import LogoCramaValentePanciu from "../../assets/LogoCramaValentePanciu.png";
 
 
 
@@ -95,6 +96,10 @@ class Sponsors extends React.Component {
       </div>
       <div className="row justify-content-center">
       <img className="col-md-5 col-sm-12 clickable-logo" src={LogoLaBunelu} onClick={() => window.open("https://www.facebook.com/profile.php?id=100067471712726", "_blank")} 
+            style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
+      </div>
+      <div className="row justify-content-center">
+      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoCramaValentePanciu} onClick={() => window.open("https://www.facebook.com/profile.php?id=100067187064281", "_blank")} 
             style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
       </div>
       <div className="row justify-content-center">
