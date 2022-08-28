@@ -163,7 +163,7 @@ const Intro = props => {
         src={HartaZagaZaga}
         style={{ marginBottom: 100, marginTop: 20, maxWidth: '90%', height:'auto',  }}
       />
-      
+      {/*
       <div className="responsive-title" style={{ fontSize: '64px'}}>Înscrieri</div>
       <div className="container intro-section-content current-edition-section">
         <div className="col-lg-12 d-lg-flex flex-wrap align-items-center">
@@ -253,7 +253,7 @@ const Intro = props => {
           style={{maxWidth:'90%', height: 'auto', }}/>
         </div>
       </div>
-          
+        */}    
     </div>
   );
 };

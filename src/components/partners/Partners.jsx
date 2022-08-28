@@ -43,6 +43,8 @@ import ColegiulBotta from "../../assets/LogoColegiulBotta.png";
 import ScolaGimnazialaSoveja from "../../assets/LogoScoalaGimnazialaSoveja.jpg";
 import LicTehnPanciu from "../../assets/LogoLicTehnPanciu.png";
 import RadRomActualitati from "../../assets/RadioRomaniaActualiati.png"
+import Liternet from "../../assets/Liternet.png";
+import OmniVision from "../../assets/OmniVision.png";
 
 class Partners extends React.Component {
   render() {
@@ -95,6 +97,8 @@ class Partners extends React.Component {
           <img className="col-md-2 col-sm-4 partner-logo partner-logo-small" src={VranceaTravel} />
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={CinciFocsani} />
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small" src={ValidSoftware} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small clickable-logo" src={Liternet} onClick={() => window.open("https://www.liternet.ro/", "_blank")} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small clickable-logo" src={OmniVision} onClick={() => window.open("https://omnivision.ro/despre-noi/", "_blank")} />
           {/*<img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={AtlasTv} />
           <img className="col-md-3 col-sm-1 partner-logo partner-logo-small" src={ColegiulValeriuDCotea} />
           */}
