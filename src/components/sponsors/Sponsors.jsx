@@ -18,6 +18,7 @@ import LogoFlorariaMaruca from "../../assets/LogoFlorariaMaruca.png";
 import LogoLupinocom from "../../assets/LogoLupinocom.png";
 import LogoPlexity from "../../assets/LogoPlexity.png";
 import LogoCramaValentePanciu from "../../assets/LogoCramaValentePanciu.png";
+import LogoGradinaCuCamelii from "../../assets/GradinaCuCamelii.jpeg";
 
 
 
@@ -111,7 +112,11 @@ class Sponsors extends React.Component {
             style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
       </div>
       <div className="row justify-content-center">
-      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoDavide} onClick={() => window.open("https://www.facebook.com/restaurantladavide", "_blank")} 
+      <img className="col-md-5 col-sm-12 clickable-logo" src={LogoGradinaCuCamelii} 
+            style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
+      </div>
+      <div className="row justify-content-center">
+      <img className="col-md-5 col-sm-12" src={LogoDavide} onClick={() => window.open("https://www.facebook.com/restaurantladavide", "_blank")} 
             style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
       </div>
       </div>
