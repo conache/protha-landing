@@ -69,6 +69,10 @@ class Sponsors extends React.Component {
             style={{ marginBottom: 75}}/>
       </div>
       <div className="row justify-content-center">
+      <img className="col-md-5 col-sm-12" src={LogoTricottonJunior}
+            style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
+      </div>
+      <div className="row justify-content-center">
       <img className="col-md-5 col-sm-12 clickable-logo" src={LogoPaco} onClick={() => window.open("https://pacomarket.ro/", "_blank")} 
             style={{ marginBottom: 75}}/>
       </div>
@@ -123,10 +127,6 @@ class Sponsors extends React.Component {
       </div>
       <div className="row justify-content-center">
       <img className="col-md-5 col-sm-12" src={LogoCosmeticBYBCars} 
-            style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
-      </div>
-      <div className="row justify-content-center">
-      <img className="col-md-5 col-sm-12" src={LogoTricottonJunior}
             style={{ marginBottom: 75, maxWidth: '65%', height:'auto'}}/>
       </div>
       </div>
