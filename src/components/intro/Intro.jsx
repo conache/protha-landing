@@ -8,7 +8,7 @@ import InscrieriTrupaImg from '../../assets/inscrieri_trupa.png';
 import InscrieriAtelierImg from '../../assets/inscrieri_atelier.png';
 import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.png';
 import AfisImg from '../../assets/afis.jpeg';
-import HartaZagaZaga from '../../assets/HartaZagaZagaSat.jpg'
+import HartaZagaZaga from '../../assets/HartaZagaZagaSat.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
