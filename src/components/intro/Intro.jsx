@@ -7,12 +7,12 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import InscrieriTrupaImg from '../../assets/inscrieri_trupa.png';
 import InscrieriAtelierImg from '../../assets/inscrieri_atelier.png';
 import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.png';
-import AfisImg from '../../assets/afis.jpeg';
-import HartaZagaZaga from '../../assets/HartaZagaZagaSat.png'
+import AfisImg from '../../assets/afis_2023.jpeg';
+import HartaZagaZaga from '../../assets/HartaZagaZagaSat.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Intro = props => {
+const Intro = (props) => {
   const hl_1 = useRef();
   const hl_2 = useRef();
 
@@ -58,9 +58,9 @@ const Intro = props => {
       <Stars className="stars" />
       <div className="logo-container">
         <FestivalLogo />
-        <div className="logo-subtext" style={{ marginLeft: '10px', marginRight: '10px'}}>
-        Vino alături de noi și fii tu însuți
-         </div>
+        <div className="logo-subtext" style={{ marginLeft: '10px', marginRight: '10px' }}>
+          Vino alături de noi și fii tu însuți
+        </div>
       </div>
       <Clouds />
       <div className="intro-section">
@@ -70,28 +70,30 @@ const Intro = props => {
             <div className="responsive-content">
               Festivalul de Teatru Tânăr “Ora de Teatru” așteaptă cu brațele deschise liceeni, atât
               din țară cât și din străinătate, care știu ce înseamnă scândura scenei, dar și pe cei
-              curioși să privească scena ca  spectatori. Alături de aceștia participă activ la
+              curioși să privească scena ca spectatori. Alături de aceștia participă activ la
               festival copii și tinerii diagnosticați cu autism, cei cu deficiențe de auz și
-              vorbire, precum și cei instituționalizați. Toți sunt incluși, toți sunt acceptați exact 
-              așa cum sunt și toți pleacă cu zâmbete.
+              vorbire, precum și cei instituționalizați. Toți sunt incluși, toți sunt acceptați
+              exact așa cum sunt și toți pleacă cu zâmbete.
             </div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
             <div className="content-element-title responsive-title">Cum?</div>
             <div className="responsive-content">
-            Educația nonformală, terapia prin teatru și târgul de carte ne vor însoți timp de cinci zile, 
-            în cele zece locații ale festivalului. Vom fi noi cu noi, adică persoane cu aceleași valori și 
-            așteptări. Vom fi noi cu ei, cei care ne vor păși alături și ne vor împărtăși din pașii lor 
-            prin viață.  Vom fi noi înșine fiindcă ne vom exprima așa cum suntem.
+              Educația nonformală, terapia prin teatru și târgul de carte ne vor însoți timp de
+              cinci zile, în cele zece locații ale festivalului. Vom fi noi cu noi, adică persoane
+              cu aceleași valori și așteptări. Vom fi noi cu ei, cei care ne vor păși alături și ne
+              vor împărtăși din pașii lor prin viață. Vom fi noi înșine fiindcă ne vom exprima așa
+              cum suntem.
             </div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
             <div className="content-element-title responsive-title">Unde?</div>
             <div className="responsive-content">
-            La noi acasă. La tine acasă. La prietenii tăi. În locuri noi pentru tine. Dar în locuri în care 
-            te vei simți ca la tine acasă. De la Zaga Zaga Sat către alte nouă localități din Vrancea va 
-            suna intrarea la "Ora de Teatru". Din sală în aer liber, din urban în rural, vom fi cât mai 
-            aproape de toți membrii comunităților pe unde vom ajunge.
+              La noi acasă. La tine acasă. La prietenii tăi. În locuri noi pentru tine. Dar în
+              locuri în care te vei simți ca la tine acasă. De la Zaga Zaga Sat către alte nouă
+              localități din Vrancea va suna intrarea la "Ora de Teatru". Din sală în aer liber, din
+              urban în rural, vom fi cât mai aproape de toți membrii comunităților pe unde vom
+              ajunge.
             </div>
           </div>
         </div>
@@ -113,32 +115,40 @@ const Intro = props => {
         <div className="col-lg-6">
           <div className="responsive-title">Ți-am pregătit o mulțime de surprize</div>
           <div className="responsive-content">
-          2022 - lăsă în urmă agitația și zgomotul orașelor și mută festivalul într-un loc unic din 
-          România, în Delta Siretului. Acolo unde brațele Siretului se ramifică și se risipesc peste 
-          o întindere nesfârșită formând o deltă impresionantă, de o frumusețe aparte. <a href="https://zagazaga.ro/" target="_blank">Zaga Zaga Sat</a> este 
-          locul unde vom fi de la răsărit la apus, timp de cinci zile, și ne vom bucura de 
-          spectacole de calitate, dar și de plimbări cu barca, cu căruța, de parcul de aventură și chiar 
-          de focul de tabără.{' '}
+            2023 - lăsă în urmă agitația și zgomotul orașelor și mută festivalul într-un loc unic
+            din România, în Delta Siretului. Acolo unde brațele Siretului se ramifică și se risipesc
+            peste o întindere nesfârșită formând o deltă impresionantă, de o frumusețe aparte.{' '}
+            <a href="https://zagazaga.ro/" target="_blank">
+              Zaga Zaga Sat
+            </a>{' '}
+            este locul unde vom fi de la răsărit la apus, timp de cinci zile, și ne vom bucura de
+            spectacole de calitate, dar și de plimbări cu barca, cu căruța, de parcul de aventură și
+            chiar de focul de tabără.{' '}
           </div>
         </div>
         <div className="col-lg-6 right-aligned middle-content">
           <div className="responsive-title">Hai să ne bucurăm de întâlnirea cu arta</div>
           <div className="responsive-content">
-          Spectacole de teatru, coregrafie și muzică, expoziții de fotografie, scenografie și pictură, filme de scurt metraj, 
-          ateliere de teatru și relaționare, ateliere de gândire critică și inteligență emoțională, întâlniri cu personalități 
-          din teatru și mediul cultural, colocvii vocaționale și târgul de carte, toate în aer liber, într-un loc de o 
-          frumusețe tulburătoare, care devine târămul tinerilor.{' '}
+            Spectacole de teatru, coregrafie și muzică, expoziții de fotografie, scenografie și
+            pictură, filme de scurt metraj, ateliere de teatru și relaționare, ateliere de gândire
+            critică și inteligență emoțională, întâlniri cu personalități din teatru și mediul
+            cultural, colocvii vocaționale și târgul de carte, toate în aer liber, într-un loc de o
+            frumusețe tulburătoare, care devine târămul tinerilor.{' '}
           </div>
         </div>
         <div className="col-lg-6 col-md-12">
           <div className="responsive-title">Dă sfoară în țară</div>
           <div className="responsive-content">
-          Ține aproape de noi, să vezi ce pregătim. Dă de știre colegilor și prietenilor tăi, că 
-          la <a href="https://zagazaga.ro/" target="_blank">Zaga Zaga</a> și în toată Vrancea, se va întâmpla ceva. Scrie-ne și spune-ne unde te 
-          regăsești în “ora” noastră. Și împreună vom da viața unei noi ediții a festivalului. 
-          E locul în care trebuie să fii anul acesta, fiindcă doar aici ești tu însuți.
+            Ține aproape de noi, să vezi ce pregătim. Dă de știre colegilor și prietenilor tăi, că
+            la{' '}
+            <a href="https://zagazaga.ro/" target="_blank">
+              Zaga Zaga
+            </a>{' '}
+            și în toată Vrancea, se va întâmpla ceva. Scrie-ne și spune-ne unde te regăsești în
+            “ora” noastră. Și împreună vom da viața unei noi ediții a festivalului. E locul în care
+            trebuie să fii anul acesta, fiindcă doar aici ești tu însuți.
           </div>
-        {/*
+          {/*
           </div>
           <div className="col-lg-6 right-aligned middle-content">
           <div className="responsive-title">Ai vrea sa ne ajuti?</div>
@@ -152,16 +162,18 @@ const Intro = props => {
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10 clickable-logo"
         src={AfisImg}
-        style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height:'auto', }}
-        onClick={() => window.open("https://zagazaga.ro/ora-de-teatru-2022/", "_blank")}
+        style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height: 'auto' }}
+        onClick={() => window.open('https://zagazaga.ro/ora-de-teatru-2022/', '_blank')}
       />
-      <div className='Titlu-HartaZagaZagaSat'>
-      <div className="responsive-title" style={{ fontSize: '64px'}}>Hartă Zaga Zaga Sat</div>
+      <div className="Titlu-HartaZagaZagaSat">
+        <div className="responsive-title" style={{ fontSize: '64px' }}>
+          Hartă Zaga Zaga Sat
+        </div>
       </div>
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
         src={HartaZagaZaga}
-        style={{ marginBottom: 100, marginTop: 20, maxWidth: '90%', height:'auto',  }}
+        style={{ marginBottom: 100, marginTop: 20, maxWidth: '90%', height: 'auto' }}
       />
       {/*
       <div className="responsive-title" style={{ fontSize: '64px'}}>Înscrieri</div>
@@ -253,7 +265,7 @@ const Intro = props => {
           style={{maxWidth:'90%', height: 'auto', }}/>
         </div>
       </div>
-        */}    
+        */}
     </div>
   );
 };
