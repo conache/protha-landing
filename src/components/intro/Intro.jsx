@@ -12,7 +12,7 @@ import HartaZagaZaga from '../../assets/HartaZagaZagaSat.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Intro = (props) => {
+const Intro = () => {
   const hl_1 = useRef();
   const hl_2 = useRef();
 
