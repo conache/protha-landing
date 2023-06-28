@@ -73,7 +73,8 @@ const Intro = () => {
               curioși să privească scena ca spectatori. Alături de aceștia participă activ la
               festival copii și tinerii diagnosticați cu autism, cei cu deficiențe de auz și
               vorbire, precum și cei instituționalizați. Toți sunt incluși, toți sunt acceptați
-              exact așa cum sunt și toți pleacă cu zâmbete.
+              exact așa cum sunt și toți pleacă cu zâmbete.{' '}
+              <span style={{ color: 'red' }}>test</span>
             </div>
           </div>
           <div className="col-md-12 col-lg-4 content-element">
