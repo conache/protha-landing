@@ -7,8 +7,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import InscrieriTrupaImg from '../../assets/inscrieri_trupa.png';
 import InscrieriAtelierImg from '../../assets/inscrieri_atelier.png';
 import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.png';
-import AfisImg from '../../assets/afis_2023.jpeg';
+import AfisImg from '../../assets/afis_2023_2.png';
 import HartaZagaZaga from '../../assets/HartaZagaZagaSat.png';
+import TrupePrezente from '../../assets/trupe_participante.jpg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -159,12 +160,29 @@ const Intro = () => {
           */}
         </div>
       </div>
+      <div className="Titlu-Festival-de-Teatru-Ora-de-Teatru">
+        <div className="responsive-title" style={{ fontSize: '64px', marginTop: -80 }}>
+          Festivalul De Teatru Tânăr "Ora de Teatru"
+        </div>
+      </div>
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10 clickable-logo"
         src={AfisImg}
-        style={{ marginBottom: 100, marginTop: -100, maxWidth: '90%', height: 'auto' }}
+        style={{ marginBottom: 100, marginTop: -10, maxWidth: '90%', height: 'auto' }}
         onClick={() => window.open('https://zagazaga.ro/ora-de-teatru-2022/', '_blank')}
       />
+
+      <div className="Trupe-Participante">
+        <div className="responsive-title" style={{ fontSize: '64px' }}>
+          Trupele prezente
+        </div>
+      </div>
+      <img
+        className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
+        src={TrupePrezente}
+        style={{ marginBottom: 100, marginTop: -10, maxWidth: '90%', height: 'auto' }}
+      />
+
       <div className="Titlu-HartaZagaZagaSat">
         <div className="responsive-title" style={{ fontSize: '64px' }}>
           Hartă Zaga Zaga Sat
@@ -173,7 +191,7 @@ const Intro = () => {
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
         src={HartaZagaZaga}
-        style={{ marginBottom: 100, marginTop: 20, maxWidth: '90%', height: 'auto' }}
+        style={{ marginBottom: 100, marginTop: -20, maxWidth: '90%', height: 'auto' }}
       />
       {/*
       <div className="responsive-title" style={{ fontSize: '64px'}}>Înscrieri</div>
