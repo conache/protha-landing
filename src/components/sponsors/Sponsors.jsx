@@ -4,14 +4,11 @@ import LogoTrupa from '../../assets/logo_trupa.png';
 import LogoConsiliulJudeteanVrancea from '../../assets/NewLogoCJV.jpg';
 import LogoZagaZaga from '../../assets/logo-ZagaZagaSat.png';
 import LogoGrupAutonom from '../../assets/LogoGrupAutonom.png';
-import LogoBTD from '../../assets/btdLogo.png';
 import LogoLaBunelu from '../../assets/LogoLaBunelu.jpg';
-import LogoPaco from '../../assets/LogoPaco.png';
 import LogoRobutex from '../../assets/LogoRobutex.jpeg';
 import LogoSculePanciu from '../../assets/LogoSculePanciu.png';
 import LogoBeciulDomnesc from '../../assets/LogoBeciulDomnesc.jpeg';
 import LogoMarco from '../../assets/LogoMarco.jpeg';
-import LogoDavide from '../../assets/LogoDavide.jpeg';
 import LogoFlorariaMaruca from '../../assets/LogoFlorariaMaruca.png';
 import LogoLupinocom from '../../assets/LogoLupinocom.png';
 import LogoPlexity from '../../assets/LogoPlexity.png';
@@ -19,6 +16,9 @@ import LogoCramaValentePanciu from '../../assets/LogoCramaValentePanciu.png';
 import LogoGradinaCuCamelii from '../../assets/GradinaCuCamelii.jpeg';
 import LogoCosmeticBYBCars from '../../assets/LogoCosmeticBYBCars.png';
 import LogoTricottonJunior from '../../assets/LogoTricottonJunior.png';
+import LogoIdnaPower from '../../assets/logo_idnapower.png';
+import LogoMetinox from '../../assets/logo_metinox.png';
+
 
 class Sponsors extends React.Component {
   render() {
@@ -69,14 +69,35 @@ class Sponsors extends React.Component {
             </div>
           </div>
           ,<div className="responsive-title custom-section-title">Sponsori</div>
+
           <div className="row justify-content-center">
             <img
               className="col-md-5 col-sm-12 clickable-logo"
-              src={LogoBTD}
-              onClick={() => window.open('https://www.btdconstruct.ro/', '_blank')}
-              style={{ marginBottom: 75 }}
+              src={LogoIdnaPower}
+              onClick={() =>
+                window.open(
+                  'https://idnasolarpower.ro/',
+                  '_blank',
+                )
+              }
+              style={{ marginBottom: -100, marginTop: -50 }}
             />
           </div>
+
+          <div className="row justify-content-center">
+            <img
+              className="col-md-5 col-sm-12 clickable-logo"
+              src={LogoMetinox}
+              onClick={() =>
+                window.open(
+                  'https://metinoxpvm.com/',
+                  '_blank',
+                )
+              }
+              style={{ marginBottom: -100, marginTop: -50 }}
+            />
+          </div>
+
           <div className="row justify-content-center">
             <img
               className="col-md-5 col-sm-12 clickable-logo"
@@ -92,17 +113,15 @@ class Sponsors extends React.Component {
           </div>
           <div className="row justify-content-center">
             <img
-              className="col-md-5 col-sm-12"
-              src={LogoTricottonJunior}
-              style={{ marginBottom: 75, maxWidth: '65%', height: 'auto' }}
-            />
-          </div>
-          <div className="row justify-content-center">
-            <img
               className="col-md-5 col-sm-12 clickable-logo"
-              src={LogoPaco}
-              onClick={() => window.open('https://pacomarket.ro/', '_blank')}
-              style={{ marginBottom: 75 }}
+              src={LogoTricottonJunior}
+              onClick={() =>
+                window.open(
+                  'http://www.tricotton.ro/',
+                  '_blank',
+                )
+              }
+              style={{ marginBottom: 75, maxWidth: '65%', height: 'auto' }}
             />
           </div>
           <div className="row justify-content-center">
@@ -132,16 +151,8 @@ class Sponsors extends React.Component {
             </div>
             <div className="row justify-content-center">
               <img
-                className="col-md-5 col-sm-12"
-                src={LogoLupinocom}
-                style={{ marginBottom: 75 }}
-              />
-            </div>
-            <div className="row justify-content-center">
-              <img
                 className="col-md-5 col-sm-12 clickable-logo"
-                src={LogoRobutex}
-                onClick={() => window.open('http://www.robutex.ro/', '_blank')}
+                src={LogoLupinocom}
                 style={{ marginBottom: 75 }}
               />
             </div>
@@ -174,7 +185,7 @@ class Sponsors extends React.Component {
               />
             </div>
             <div className="row justify-content-center">
-              <img className="col-md-5 col-sm-12" src={LogoPlexity} style={{ marginBottom: 75 }} />
+              <img className="col-md-5 col-sm-12 clickable-logo"  src={LogoPlexity} style={{ marginBottom: 75 }} />
             </div>
             <div className="row justify-content-center">
               <img
@@ -191,19 +202,14 @@ class Sponsors extends React.Component {
                 className="col-md-5 col-sm-12 clickable-logo"
                 src={LogoGradinaCuCamelii}
                 style={{ marginBottom: 75, maxWidth: '65%', height: 'auto' }}
+                onClick={() =>
+                  window.open('https://www.facebook.com/gradinacucamelii', '_blank')
+                }
               />
             </div>
             <div className="row justify-content-center">
               <img
                 className="col-md-5 col-sm-12 clickable-logo"
-                src={LogoDavide}
-                onClick={() => window.open('https://www.facebook.com/restaurantladavide', '_blank')}
-                style={{ marginBottom: 75, maxWidth: '65%', height: 'auto' }}
-              />
-            </div>
-            <div className="row justify-content-center">
-              <img
-                className="col-md-5 col-sm-12"
                 src={LogoCosmeticBYBCars}
                 style={{ marginBottom: 75, maxWidth: '65%', height: 'auto' }}
               />
