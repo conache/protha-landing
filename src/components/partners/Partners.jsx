@@ -46,6 +46,8 @@ import RadRomActualitati from "../../assets/RadioRomaniaActualiati.png"
 import Liternet from "../../assets/Liternet.png";
 import OmniVision from "../../assets/OmniVision.png";
 import ULBS from "../../assets/logo_ulbs.png"
+import AgerPress from "../../assets/logo_agerpress.png"
+
 
 class Partners extends React.Component {
   render() {
@@ -87,6 +89,7 @@ class Partners extends React.Component {
       <div className="container partners custom-section">
         <div className="responsive-title">Parteneri media</div>
         <div className="row d-flex align-items-center justify-content-around">
+          <img className="col-md-2 col-sm-2 partner-logo partner-logo-small clickable-logo" src={AgerPress} onClick={() => window.open("https://www.agerpres.ro/", "_blank")}/>
           <img className="col-md-2 col-sm-2 partner-logo partner-logo-small clickable-logo" src={Tvr} onClick={() => window.open("http://iasi.tvr.ro/", "_blank")}/>
           <img className="col-md-2 col-sm-2 partner-logo partner-logo-small clickable-logo" src={RadRomActualitati} onClick={() => window.open("https://www.romania-actualitati.ro/", "_blank")} /> 
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small clickable-logo" src={RadioRomaniaIasi} onClick={() => window.open("http://www.radioiasi.ro/", "_blank")}/>

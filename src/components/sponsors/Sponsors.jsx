@@ -18,6 +18,13 @@ import LogoCosmeticBYBCars from '../../assets/LogoCosmeticBYBCars.png';
 import LogoTricottonJunior from '../../assets/LogoTricottonJunior.png';
 import LogoIdnaPower from '../../assets/logo_idnapower.png';
 import LogoMetinox from '../../assets/logo_metinox.png';
+import LogoDepozitMovilita from '../../assets/logo_depozit_movilita.png';
+import LogoCarturesti from '../../assets/logo_carturesti.png';
+import LogoArtesana from '../../assets/logo_artesana.png';
+import LogoNiculescu from '../../assets/logo_niculescu.png';
+import LogoAna from '../../assets/logo_ana.png';
+import LogoAutoPascu from '../../assets/logo_autopascu.png';
+import LogoHumanitas from '../../assets/logo_humanitas.png';
 
 
 class Sponsors extends React.Component {
@@ -73,6 +80,20 @@ class Sponsors extends React.Component {
           <div className="row justify-content-center">
             <img
               className="col-md-5 col-sm-12 clickable-logo"
+              src={LogoDepozitMovilita}
+              onClick={() =>
+                window.open(
+                  'https://www.facebook.com/profile.php?id=100063462881660',
+                  '_blank',
+                )
+              }
+              style={{ marginBottom: -100, marginTop: -70 }}
+            />
+          </div>
+
+          <div className="row justify-content-center">
+            <img
+              className="col-md-5 col-sm-12 clickable-logo"
               src={LogoIdnaPower}
               onClick={() =>
                 window.open(
@@ -80,7 +101,7 @@ class Sponsors extends React.Component {
                   '_blank',
                 )
               }
-              style={{ marginBottom: -100, marginTop: -50 }}
+              style={{ marginBottom: -100, marginTop: 70 }}
             />
           </div>
 
@@ -156,6 +177,61 @@ class Sponsors extends React.Component {
                 style={{ marginBottom: 75 }}
               />
             </div>
+
+            <div className="row justify-content-center">
+              <img
+                className="col-md-5 col-sm-12 clickable-logo"
+                src={LogoCarturesti}
+                onClick={() => window.open('https://carturesti.ro/', '_blank')}
+                style={{ marginBottom: 75 }}
+              />
+            </div>
+
+            <div className="row justify-content-center">
+              <img
+                className="col-md-5 col-sm-12 clickable-logo"
+                src={LogoArtesana}
+                onClick={() => window.open('https://artesana.ro/', '_blank')}
+                style={{ marginBottom: 75 }}
+              />
+            </div>
+            
+            <div className="row justify-content-center">
+              <img
+                className="col-md-5 col-sm-12 clickable-logo"
+                src={LogoNiculescu}
+                onClick={() => window.open('https://www.niculescu.ro/', '_blank')}
+                style={{ marginBottom: 75 }}
+              />
+            </div>
+
+            <div className="row justify-content-center">
+              <img
+                className="col-md-5 col-sm-12 clickable-logo"
+                src={LogoAna}
+                onClick={() => window.open('https://anaare.ro/', '_blank')}
+                style={{ marginBottom: 75 }}
+              />
+            </div>
+
+            <div className="row justify-content-center">
+              <img
+                className="col-md-5 col-sm-12 clickable-logo"
+                src={LogoAutoPascu}
+                onClick={() => window.open('https://autopascu99.ro/', '_blank')}
+                style={{ marginBottom: 75 }}
+              />
+            </div>
+
+            <div className="row justify-content-center">
+              <img
+                className="col-md-5 col-sm-12 clickable-logo"
+                src={LogoHumanitas}
+                onClick={() => window.open('https://www.facebook.com/profile.php?id=100092492076024', '_blank')}
+                style={{ marginBottom: 75 }}
+              />
+            </div>
+
             <div className="row justify-content-center">
               <img
                 className="col-md-5 col-sm-12 clickable-logo"
