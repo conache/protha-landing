@@ -10,7 +10,7 @@ import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.png';
 import AfisImg from '../../assets/Poster-Actualizat.png';
 import HartaZagaZaga from '../../assets/HartaZagaZagaSat.png';
 import TrupePrezente from '../../assets/trupe_participante.jpg'
-import ProgramFestival from '../../assets/program_festival.jpg'
+import ProgramFestival from '../../assets/program_festival.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
