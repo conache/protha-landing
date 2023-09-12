@@ -47,7 +47,8 @@ import Liternet from "../../assets/Liternet.png";
 import OmniVision from "../../assets/OmniVision.png";
 import ULBS from "../../assets/logo_ulbs.png"
 import AgerPress from "../../assets/logo_agerpress.png"
-
+import Smark from "../../assets/logo_smark.png"
+import Iqads from "../../assets/logo_iqads.png"
 
 class Partners extends React.Component {
   render() {
@@ -104,6 +105,10 @@ class Partners extends React.Component {
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small clickable-logo" src={ValidSoftware} onClick={() => window.open("https://validsoftware.ro/", "_blank")}/>
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small clickable-logo" src={Liternet} onClick={() => window.open("https://www.liternet.ro/", "_blank")} />
           <img className="col-md-2 col-sm-3 partner-logo partner-logo-small clickable-logo" src={OmniVision} onClick={() => window.open("https://omnivision.ro/despre-noi/", "_blank")} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small clickable-logo" src={Smark} onClick={() => window.open("https://www.smark.ro/", "_blank")} />
+          <img className="col-md-2 col-sm-3 partner-logo partner-logo-small clickable-logo" src={Iqads} onClick={() => window.open("https://www.iqads.ro/", "_blank")} />
+
+          
           {/*<img className="col-md-2 col-sm-2 partner-logo partner-logo-small" src={AtlasTv} />
           <img className="col-md-3 col-sm-1 partner-logo partner-logo-small" src={ColegiulValeriuDCotea} />
           */}

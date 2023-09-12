@@ -25,6 +25,8 @@ import LogoNiculescu from '../../assets/logo_niculescu.png';
 import LogoAna from '../../assets/logo_ana.png';
 import LogoAutoPascu from '../../assets/logo_autopascu.png';
 import LogoHumanitas from '../../assets/logo_humanitas.png';
+import LogoRikora from '../../assets/logo_rikora.png';
+import LogoMosia from '../../assets/logo_mosia.png';
 
 
 class Sponsors extends React.Component {
@@ -192,6 +194,25 @@ class Sponsors extends React.Component {
                 className="col-md-5 col-sm-12 clickable-logo"
                 src={LogoArtesana}
                 onClick={() => window.open('https://artesana.ro/', '_blank')}
+                style={{ marginBottom: 75 }}
+              />
+            </div>
+
+            <div className="row justify-content-center">
+              <img
+                className="col-md-5 col-sm-12 clickable-logo"
+                src={LogoRikora}
+                onClick={() => window.open('https://www.facebook.com/RikoraFLM', '_blank')}
+                style={{ marginBottom: 75 }}
+              />
+            </div>
+
+            
+            <div className="row justify-content-center">
+              <img
+                className="col-md-5 col-sm-12 clickable-logo"
+                src={LogoMosia}
+                onClick={() => window.open('https://mosiadomneasca.ro/', '_blank')}
                 style={{ marginBottom: 75 }}
               />
             </div>
