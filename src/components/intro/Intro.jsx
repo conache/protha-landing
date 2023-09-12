@@ -7,9 +7,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import InscrieriTrupaImg from '../../assets/inscrieri_trupa.png';
 import InscrieriAtelierImg from '../../assets/inscrieri_atelier.png';
 import InscrieriVoluntarImg from '../../assets/inscrieri_voluntar.png';
-import AfisImg from '../../assets/afis_2023_2.png';
+import AfisImg from '../../assets/Poster-Actualizat.png';
 import HartaZagaZaga from '../../assets/HartaZagaZagaSat.png';
 import TrupePrezente from '../../assets/trupe_participante.jpg'
+import ProgramFestival from '../../assets/program_festival.jpg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -169,8 +170,9 @@ const Intro = () => {
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10 clickable-logo"
         src={AfisImg}
         style={{ marginBottom: 100, marginTop: -10, maxWidth: '90%', height: 'auto' }}
-        onClick={() => window.open('https://zagazaga.ro/ora-de-teatru-2022/', '_blank')}
+        onClick={() => window.open('https://www.facebook.com/events/851725709848752', '_blank')}
       />
+
 
       <div className="Trupe-Participante">
         <div className="responsive-title" style={{ fontSize: '64px' }}>
@@ -180,6 +182,17 @@ const Intro = () => {
       <img
         className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
         src={TrupePrezente}
+        style={{ marginBottom: 100, marginTop: -10, maxWidth: '90%', height: 'auto' }}
+      />
+
+      <div className="Program-Festival">
+        <div className="responsive-title" style={{ fontSize: '64px' }}>
+          Programul festivalului
+        </div>
+      </div>
+      <img
+        className="col-lg-6 col-md-10 col-sm-10 col-xs-10"
+        src={ProgramFestival}
         style={{ marginBottom: 100, marginTop: -10, maxWidth: '90%', height: 'auto' }}
       />
 

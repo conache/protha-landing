@@ -19,7 +19,7 @@ class Team extends React.Component {
                 <a href="https://www.tiktok.com/@fest.oradeteatru" target="_blank"><TiktokLogo className="social-logo-part" /></a>
             </div>
             <div>
-                <a href="" target="_blank"><LinkedINLogo className="social-logo-part" /></a>
+               {/*<a href="" target="_blank"><LinkedINLogo className="social-logo-part" /></a>*/}
             </div>
         </div>
     </div>
