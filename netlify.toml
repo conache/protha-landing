@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/"
-  to = "https://festivaluloradeteatru.ro"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
+  from = "/*"
+  to = "https://festivaluloradeteatru.ro/:splat"
+  status = 301
+  force = true
